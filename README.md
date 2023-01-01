@@ -1,4 +1,4 @@
-# Ethical-hacking from noob to Pro
+# Ethical-hacking
 
 - [Introduction](#introduction)
 - [Pre-Requests](#pre-requests)
