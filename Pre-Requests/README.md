@@ -3,7 +3,7 @@
 Inorder to Upload it(`documentations` and `stuff` to Github you need to know the following things 
 
 - [Github](#github)
-- [Github-Readme.md](#github-readme)
+- [Github-Readme.md](#github-readme.md)
 - [Github-Fork](#github-fork)
 
 ### Github 

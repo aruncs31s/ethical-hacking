@@ -32,3 +32,11 @@ This sections's discus about all basic hacks
 ## Contact
 
 [Telegram](https://t.me/+mqL4fZrUtEw0MjJl)
+
+## Team Members
+
+[Arun CS](https://github.com/aruncs31s/
+)
+</br>
+[Amarnath](https://github.com/amarnath749)
+[Goutham Naik](https://github.com/Gouthamexe)
