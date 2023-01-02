@@ -6,7 +6,8 @@
 - [Hacks](#hacks)
 
 ## Introduction 
-   <p align="justify">  A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . Hackers are usually very talented. smart people who understand computera better than others 
+   <p align="justify"> 
+      A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . Hackers are usually very talented. smart people who understand computera better than others 
    </p>
 
 
