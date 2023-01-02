@@ -4,10 +4,13 @@
 - [Basics](#basics)
 - [Pre-Requests](#pre-requests)
 - [Hacks](#hacks)
+- [Tools-Used]()
+- [Scripts]()
+- [Team Members]()
 
 ## Introduction 
    <p align="justify"> 
-      A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . Hackers are usually very talented. smart people who understand computera better than others 
+      A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . And `hacking` is the process gaining of unauthorized access to data in a system or computer
    </p>
 
 
@@ -41,3 +44,5 @@ This sections's discus about all basic hacks
 [Amarnath](https://github.com/amarnath749)
 <br>
 [Goutham Naik](https://github.com/Gouthamexe)
+<br>
+[Anurag M K]()
