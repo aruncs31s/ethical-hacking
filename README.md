@@ -14,7 +14,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 
 ## Basics 
 This sections's discus about all basic hacks
-[click here]() to know more 
+[click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
 
 ## Pre-Requests
 
