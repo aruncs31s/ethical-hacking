@@ -3,10 +3,8 @@
 - [Proxy Servers and Stay Anonymous](#Proxyservers)
 
 ### 1. Proxy Servers 
-
-<p align="justify"> 
+ <p align="justify"> 
 
     Proxy server is a computer on a network which acts as an intermediary for connections with other computer on that network 
-   
-    </p>
+   </p>
 
