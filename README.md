@@ -37,6 +37,7 @@ This sections's discus about all basic hacks
 
 [Arun CS](https://github.com/aruncs31s/
 )
-</br>
+<br>
 [Amarnath](https://github.com/amarnath749)
+<br>
 [Goutham Naik](https://github.com/Gouthamexe)
