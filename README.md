@@ -19,6 +19,8 @@ This sections's discus about all basic hacks
 
 ## Pre-Requests
 
+[click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests)
+
 
 ## Hacks
 - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
