@@ -6,6 +6,7 @@
 - [Hacks](#hacks)
 - [Tools-Used]()
 - [Scripts]()
+- [What is](#whatis)
 - [Team Members]()
 
 ## Introduction 
@@ -46,3 +47,9 @@ This sections's discus about all basic hacks
 [Goutham Naik](https://github.com/Gouthamexe)
 <br>
 [Anurag M K]()
+<br>
+[Sony Thomas](https://github.com/sonyt86)
+<br>
+[MaxStee](https://github.com/Maxsteee)
+<br>
+[Anoop J J]()
