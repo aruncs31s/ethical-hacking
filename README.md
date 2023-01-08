@@ -4,10 +4,10 @@
 - [Basics](#basics)
 - [Pre-Requests](#pre-requests)
 - [Hacks](#hacks)
-- [Tools-Used]()
-- [Scripts]()
+- [Scripts](#scripts)
+- [Tools-Used](#Tools-Used)
 - [What is](#whatis)
-- [Team Members]()
+- [Team Members](#team-members)
 
 ## Introduction 
    <p align="justify"> 
@@ -29,10 +29,20 @@ This sections's discus about all basic hacks
 ## Hacks
 - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
 
-## Most Used Tools 
+- [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
 
-`Metasploit`
 
+## Scripts 
+- [payload-generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
+
+## Exploits 
+
+- [CVE-2022-0847-exploit](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c)
+- [CVE-2022-0847-exploit 2](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c2)
+
+## Tools-Used
+
+`Metasploit`  `gcc`
 ## Contact
 
 [Telegram](https://t.me/+mqL4fZrUtEw0MjJl)
