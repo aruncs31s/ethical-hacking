@@ -1,9 +1,24 @@
 - [Linux](#linux)
+
 <p align='justify'>
-
-    Privilege escalation is the act of exploiting a bug, a design flaw, or a configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user      
-
+    Privilege escalation is the act of exploiting a bug, a design flaw, or a configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user   
+    The result is that an application with more privileges than intended by the application developer or system administrator can perform unauthorized actions. 
 </p>
+
+ ####  Support 
+
+- Linux kernel versions newer than `5.8` are affected.
+
+- Later fixed on `5.16.11` 
+`5.15.25` 
+`5.10.102`
+
+
+[Source](https://en.wikipedia.org/wiki/Privilege_escalation)  
+
+
+
+
 ## Linux 
 
 1. [`CVE-2022-0847`](#CVE-2022-0847)
