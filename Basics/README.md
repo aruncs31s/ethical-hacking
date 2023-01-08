@@ -5,10 +5,8 @@
 ### 1. Proxy Servers 
 <br>
 <p align="justify"> 
-
     Proxy server is a computer on a network which acts as an intermediary for connections with other computer on that network 
-   
-    </p>
+     </p>
     
 <!-- from https://www.fortinet.com/resources/cyberglossary/proxy-server--> 
 
