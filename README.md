@@ -51,16 +51,22 @@ This sections's discus about all basic hacks
 
 [Arun CS](https://github.com/aruncs31s/
 )
-<br>
+
 [Amarnath](https://github.com/amarnath749)
-<br>
+
 [Goutham Naik](https://github.com/Gouthamexe)
-<br>
+
 [Anurag M K]()
-<br>
+
 [Sony Thomas](https://github.com/sonyt86)
-<br>
+
 [MaxStee](https://github.com/Maxsteee)
-<br>
+
+
 [Anoop J J]()
+
 [Athul vv](https://github.com/athulvv1)
+
+[Swetha Kc]()
+
+[Aslam]()
