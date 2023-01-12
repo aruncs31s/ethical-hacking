@@ -30,6 +30,8 @@ CVE-2022-0847, a vulnerability in the Linux kernel since 5.8 which allows overwr
 
 `gcc`
 
+
+
 ### Exploit 1
 
 ```
