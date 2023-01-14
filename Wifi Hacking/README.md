@@ -1,16 +1,22 @@
-# Wifi Hacking
-- [using Wifite]()
+# **Wifi Hacking**
+1. [using Wifite]()
 
 
 
-### Using wifite
 
-### Requirements
+### **Using wifite**(easyest)
+
+### ***Requirements***
+ - [`linux`]()
  - [`wifite`]()
 
-### Procedure
+### **Steps**
 
 ```
 wifite
 
 ```
+
+### **POC**
+
+![wifite](https://github.com/aruncs31s/ethical-hacking/blob/main/video/wifite.gif?raw=true)

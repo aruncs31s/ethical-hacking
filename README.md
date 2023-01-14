@@ -2,12 +2,14 @@
 
 - [Introduction](#introduction)
 - [Basics](#basics)
+- [languages]()
 - [Pre-Requests](#pre-requests)
 - [Hacks](#hacks)
 - [Scripts](#scripts)
 - [Tools-Used](#Tools-Used)
-- [What is](#whatis)
 - [Team Members](#team-members)
+- [Credits]()
+- [videos]()
 
 ## Introduction 
    <p align="justify"> 
@@ -31,6 +33,7 @@ This sections's discus about all basic hacks
 
 - [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
 
+- [wifi password hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/Wifi%20Hacking)
 
 ## Scripts 
 - [payload-generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
@@ -41,8 +44,8 @@ This sections's discus about all basic hacks
 - [CVE-2022-0847-exploit 2](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c2)
 
 ## Tools-Used
-
-`Metasploit`  `gcc`
+ 
+`Metasploit`   `gcc`
 ## Contact
 
 [Telegram](https://t.me/+mqL4fZrUtEw0MjJl)
