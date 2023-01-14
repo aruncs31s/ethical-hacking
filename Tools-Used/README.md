@@ -7,48 +7,48 @@
 <CAPTION align="left"> TEST </CAPTION>
 
 <TR>
-<TH > <a  style=color:#00ff00  href=#avahi-deamon>avahi-deamon</TH>
+<TH > <a href=#avahi-deamon>avahi-deamon</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>bully</TH>
+<TH > <a     href=#metasploit>bully</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>hashcat</TH>
+<TH > <a      href=#metasploit>hashcat</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>pyrit</TH>
+<TH > <a       href=#metasploit>pyrit</TH>
 <TH>gfgfgfgfg </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>hcxdumptool</TH>
+<TH > <a href=#metasploit>hcxdumptool</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>hcspcapngtool</TH>
+<TH > <a href=#metasploit>hcspcapngtool</TH>
 <TH> </TH>
 </TR>
 v
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>gcc</TH>
+<TH > <a href=#metasploit>gcc</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>metasploit</TH>
+<TH > <a href=#metasploit>metasploit</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH style=color:#00ff00 > <a  style=color:#00ff00  href=#metasploit>metasploit</TH>
+<TH          > <a href=#metasploit>metasploit</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>macchanger</TH>
+<TH > <a href=#metasploit>macchanger</TH>
 <TH> </TH>
 </TR>
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>metasploit</TH>
+<TH > <a href=#metasploit>metasploit</TH>
 <TH> </TH>
 </TR>
 v
@@ -64,7 +64,7 @@ v
 
 ### Metasploit
 <!-- source = Wikipedia--> 
-<p  style=color:#00ff00 ;align=justify>
+<p align=justify>
     The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7
     </p>
     

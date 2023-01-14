@@ -3,17 +3,14 @@
 
 
 
-## Using wifite
+### Using wifite
 
 ### Requirements
+ - [`wifite`]()
+
+### Procedure
 
 ```
-
 wifite
-
-```
-
-
-```
 
 ```
