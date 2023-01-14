@@ -71,8 +71,8 @@ v
 ### Instalision
 
 ## Linux
-```
-sudo apt install metasploit-framework
+```diff
+ + sudo apt install metasploit-framework
 
 ```
 
