@@ -52,7 +52,7 @@ v
 </TR>
 v
 <TR>
-<TH > <a  style=color:#00ff00  href=#metasploit>wifite2</TH>
+<TH > <a    href=#metasploit>wifite2</TH>
 <TH> </TH>
 </TR>
 
@@ -60,11 +60,10 @@ v
 
 
 
-</br>
 
 ### Metasploit
 <!-- source = Wikipedia--> 
-<p align=justify>
+<p  style=color:#00ff00 ;align=justify>
     The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7
     </p>
     
