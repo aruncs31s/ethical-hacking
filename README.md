@@ -8,6 +8,7 @@
 - [Scripts](#scripts)
 - [Tools-Used](#Tools-Used)
 - [Team Members](#team-members)
+- [Join us](#joinus)
 - [Credits]()
 - [videos]()
 
@@ -73,3 +74,7 @@ This sections's discus about all basic hacks
 [Swetha Kc]()
 
 [Aslam]()
+
+### Join us
+*you can join us and simply start learning together 
+for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
