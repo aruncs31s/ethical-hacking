@@ -8,7 +8,7 @@
 - [Scripts](#scripts)
 - [Tools-Used](#Tools-Used)
 - [Team Members](#team-members)
-- [Join us](#joinus)
+- [Join us](#join-us)
 - [Credits]()
 - [videos]()
 
