@@ -28,5 +28,7 @@ The information is then used to access important accounts and can result in iden
 
 <!-- source https://www.phishing.org/what-is-phishing -->
 
-
+#### Steps involved in phishing 
+1. **Planing** : *Criminals,Usually called as phishers , decide the target and determine how to get E-Mail addres of that target or customers of that bussiness. Phishers often user mailing and adress collectiontechnique as spammers*
+2. 
 
