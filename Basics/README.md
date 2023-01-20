@@ -12,13 +12,20 @@
 
 <p align="justify">A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network. It is a server, referred to as an “intermediary” because it goes between end-users and the web pages they visit online.</p>
 
-#### USed for 
+#### Used for 
 1. *Keep the system behind the curtain (mainly for security resons)*
 2. *Speed up the acces to a resource (through "cqching")*
 3. *Speacialized proxy servers are used to filter unwanted content such as advertisements.*
 4. *Proxy servers can be used as IP address multiplexer to enable to connect number of computers on the internet, whatever only has one IP address*
 
 *Get proxy servers [here](https://spys.one/en/)*
+
+
+#### Setup using Tor
+
+
+
+
 
 ### 2.  Phishing
 
@@ -30,5 +37,8 @@ The information is then used to access important accounts and can result in iden
 
 #### Steps involved in phishing 
 1. **Planing** : *Criminals,Usually called as phishers , decide the target and determine how to get E-Mail addres of that target or customers of that bussiness. Phishers often user mailing and adress collectiontechnique as spammers*
-2. 
+2. **Setup**: *Once a phisher know which business/business house to spoof and who their victims are, they will create methods for delivering the messege and to collect data about the target . Most often this invoilves E-Mail address and a  webpage*
+3. **Attack** : *This is the deep step pople are most familiar with - the phisher sends a phony messege that apppears to be from a reputable source.*
+4. **Collection** : *Phoishers record the information of victims entering into webpages or pop-up window.*
+5. **Identify theft and Fraud** : *phishers use the information that they have gathered to make illegal purchases or commit fraud*
 
