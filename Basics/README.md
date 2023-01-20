@@ -27,7 +27,7 @@
 
 
 
-### 2. Phishing
+###2. Phishing
 
 *Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.
 
