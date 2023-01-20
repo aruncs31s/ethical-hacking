@@ -1,7 +1,7 @@
 ## Basics
 
-- [Proxy Servers and Stay Anonymous](#proxy-servers-and-stay-snonymous)
-- [Phishing](#2.1-phishing)
+- [Proxy Servers and Stay Anonymous](#proxy-servers-and-stay-anonymous)
+- [Phishing](#phishing)
 ### Proxy Servers and Stay Anonymous
 <br>
 <p align="justify"> 
