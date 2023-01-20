@@ -55,8 +55,7 @@ This sections's discus about all basic hacks
 
 ## Team Members
 
-[Arun CS](https://github.com/aruncs31s/
-)
+**Arun CS** [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/aruncs31s/) 
 
 [Amarnath](https://github.com/amarnath749)
 
