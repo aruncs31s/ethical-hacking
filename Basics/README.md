@@ -1,6 +1,6 @@
 ## Basics
 
-- [Proxy Servers and Stay Anonymous](#Proxyservers)
+- [Proxy Servers and Stay Anonymous](#Proxy-Servers-and-Stay-Anonymous)
 - [Phishing](#phishing)
 ### 1. Proxy Servers 
 <br>
