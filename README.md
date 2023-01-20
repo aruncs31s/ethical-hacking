@@ -21,7 +21,8 @@
 for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Introduction)
 
 ## Basics 
-- [Proxy Servers and Stay Anonymous]()
+- [Proxy Servers and Stay Anonymous](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#proxy-servers-and-stay-anonymous)
+- [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
 This sections's discus about all basic hacks
 [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
 
