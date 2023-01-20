@@ -57,24 +57,24 @@ This sections's discus about all basic hacks
 
 **Arun CS** [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/aruncs31s/) 
 
-[Amarnath](https://github.com/amarnath749)
+**Amarnath**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/amarnath749)
 
-[Goutham Naik](https://github.com/Gouthamexe)
+**Goutham Naik**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/Gouthamexe)
 
-[Anurag M K]()
+**Anurag M K**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
-[Sony Thomas](https://github.com/sonyt86)
+**Sony Thomas**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/sonyt86)
 
-[MaxStee](https://github.com/Maxsteee)
+**MaxStee**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/Maxsteee)
 
 
-[Anoop J J]()
+**Anoop J J**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
-[Athul vv](https://github.com/athulvv1)
+[Athul vv][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/athulvv1)
 
-[Swetha Kc]()
+[Swetha Kc][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
-[Aslam]()
+[Aslam][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
 ### Join us
 *you can join us and simply start learning together 
