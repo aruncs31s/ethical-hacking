@@ -1,8 +1,8 @@
 ## Basics
 
-- [Proxy Servers and Stay Anonymous](#Proxy-Servers-and-Stay-Anonymous)
+- [Proxy Servers and Stay Anonymous](#proxy-servers-and-stay-snonymous)
 - [Phishing](#phishing)
-### 1. Proxy Servers 
+### Proxy Servers and Stay Anonymous
 <br>
 <p align="justify"> 
     Proxy server is a computer on a network which acts as an intermediary for connections with other computer on that network 
@@ -27,7 +27,7 @@
 
 
 
-### 2.  Phishing
+### Phishing
 
 *Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.
 
