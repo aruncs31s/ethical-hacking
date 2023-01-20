@@ -10,7 +10,7 @@
     
  <!--from https://www.fortinet.com/resources/cyberglossary/proxy-server-->
 
-<p align="justify">A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network. It is a server, referred to as an “intermediary” because it goes between end-users and the web pages they visit online.</p>
+<p  style="background-color:DodgerBlue" align="justify">A proxy server is a system or router that provides a gateway between users and the internet. Therefore, it helps prevent cyber attackers from entering a private network. It is a server, referred to as an “intermediary” because it goes between end-users and the web pages they visit online.</p>
 
 #### Used for 
 1. *Keep the system behind the curtain (mainly for security resons)*
@@ -41,4 +41,8 @@ The information is then used to access important accounts and can result in iden
 3. **Attack** : *This is the deep step pople are most familiar with - the phisher sends a phony messege that apppears to be from a reputable source.*
 4. **Collection** : *Phoishers record the information of victims entering into webpages or pop-up window.*
 5. **Identify theft and Fraud** : *phishers use the information that they have gathered to make illegal purchases or commit fraud*
+
+
+
+<button onclick="document.location='www.google.com'"> Google</button>
 
