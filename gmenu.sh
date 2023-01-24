@@ -7,11 +7,6 @@ TITLE="Bash menu"
 MENU="options:"
 
 OPTIONS=(1 "tig"
-         2 "lazygit"
-         3 "peaclocm"
-	 4 "ncmpcpp"
- 	 5 "links"
- 	 6 "fsmon"
  	 7 "ranger")
 
 CHOICE=$(dialog --clear \
