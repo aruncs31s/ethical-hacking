@@ -6,8 +6,8 @@ CHOICE_HEIGHT=4
 TITLE="Bash menu"
 MENU="options:"
 
-OPTIONS=(1 "tig"
- 	 7 "ranger")
+OPTIONS=(1 "Payload generator"
+ 	 2 "main page")
 
 CHOICE=$(dialog --clear \
                 --backtitle "Bash launcher by @aruncs31s" \
@@ -21,10 +21,10 @@ clear
 case $CHOICE in
 	
 	1)
-		tig
+		bash ./Scripts/payload-generator-script1.sh
                 ;;
         2)
-                lazygit
+		firefox --new-window https://github.com/Ethical-h4ckers
                 ;;
         3)
                 peaclock --config "peaclock/cfg/binary"
