@@ -1,4 +1,6 @@
 ## Bash 
+**currently beeing constrected in another repo**
+*https://github.com/aruncs31s/bash*
 - [Introduction](#introduction)
 - [Creating a Script]()
 
