@@ -1,8 +1,9 @@
+## Under construction
 # Ethical-hacking
 
 - [Introduction](#introduction)
 - [Basics](#basics)
-- [languages]()
+- [languages](#languages)
 - [Pre-Requests](#pre-requests)
 - [Hacks](#hacks)
 - [Scripts](#scripts)
@@ -25,6 +26,9 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 - [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
 This sections's discus about all basic hacks
 [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
+
+## Languages
+- [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
 
 ## Pre-Requests
 
