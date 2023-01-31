@@ -46,7 +46,8 @@ The information is then used to access important accounts and can result in iden
 
 <button onclick="document.location='www.google.com'"> Google</button>
 
-### **Password cracking** : <i align="right"> Password cracking is a process of </br> </i> <i>recovering passwords from data that havebeen stored in or transmitted by a computersystem </i>
+### **Password cracking** 
+ *Password cracking is a process of recovering passwords from data that havebeen stored in or transmitted by a computersystem*
 
 
 
