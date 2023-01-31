@@ -11,6 +11,7 @@
 - [Team Members](#team-members)
 - [Join us](#join-us)
 - [Credits]()
+- [References](#references)
 - [videos]()
 
 ## Introduction 
@@ -83,3 +84,7 @@ This sections's discus about all basic hacks
 ### Join us
 *you can join us and simply start learning together 
 for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
+
+### References
+- ANTI-HACKER TOOL KIT Fourth Edition by Mike Shema
+- YOUR UNIX THE ULTIMATE GUIDE by Sumitabha Das
