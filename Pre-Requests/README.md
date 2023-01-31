@@ -15,28 +15,50 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
   _You can either create( initialize ) or clone a repository._ 
 - **Initializing a repository**
  ```
- user@localhost: ~$ mkdir new_project
- user@localhost: ~$ cd new_project
- user@localhost: ~/new_project$ git init 
+~$ mkdir new_project
+~$ cd new_project
+~/new_project$ git init -b main
  ```
  - **Adding a file**
 ```
- user@localhost: ~/new_project$ touch README.md
- user@localhost: ~/new_project$ git add README.md 
- user@localhost: ~/new_project$ git commit -m README.md
+~/new_project$ touch README.md
+~/new_project$ git add README.md 
+~/new_project$ git commit -m README.md
  
 ```
 **Note:***you should edit the README.md file before commiting it othewise it would be jsut a text file also you can add any file by  
 ```
-user@localhost: ~/new_project$ mv filename ~/new_project 
-user@localhost: ~/new_project$ git add filename 
-user@localhost: ~/new_project$ git commmit -m filename
+~/new_project$ mv filename ~/new_project 
+~/new_project$ git add filename 
+~/new_project$ git commmit -m filename
 ```
+
 **Note:***You can sjust simply add all file by `$ git add .`*
+- **Creating a new repository**
+	- goto github.com
+	
+	![github](https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-addressbar.png?raw=true)
+	
+	- create a new repository 
+
+	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-1.png)
+	
+	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-2.png)
+	
+	*Click on create repository*
+	
+	- copy the repo link 
+	 
+	 ![repo link](https://github.com/aruncs31s/ethical-hacking/blob/main/images/clone%20repo.png)
+	
+	
+
+
+
 ### Github 
 
-jhggjh
-j
+
+
 #### Tutorial 
 
 - [ `Youtube ` Malayalam](https://youtu.be/aJ1cbdMdfys)
