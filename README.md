@@ -74,11 +74,11 @@ This sections's discus about all basic hacks
 
 **Anoop J J**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
-[Athul vv][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/athulvv1)
+**Athul vv** [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/athulvv1)
 
-[Swetha Kc][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Swetha Kc**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
-[Aslam][<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Aslam**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
 
 ### Join us
 *you can join us and simply start learning together 
