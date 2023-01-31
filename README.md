@@ -15,13 +15,11 @@
 - [Images](#images)
 - [videos]()
 
-## Introduction 
-   <p align="justify"> 
-      A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . And `hacking` is the process gaining of unauthorized access to data in a system or computer
-   </p>
-<p>     This is a free and open source project made by few students and anyone intrested sharing 
+## Introduction
+*A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . And `hacking` is the process gaining of unauthorized access to data in a system or computer*
+<i>     This is a free and open source project made by few students and anyone intrested sharing 
 hacking or linux skill or anyone willing to learn hacking are wellcome here 
-</p>
+</i>
 
 <h2 class="title">Disclimer</h2>
 <i>   This whole project is for educational purpose only and we suggest that you should gain full permission before doing anything on their network even before scanning</i>
