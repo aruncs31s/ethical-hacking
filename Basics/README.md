@@ -27,7 +27,7 @@
 
 
 
-### Phishing
+### **Phishing**
 
 *Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.
 
@@ -35,7 +35,7 @@ The information is then used to access important accounts and can result in iden
 
 <!-- source https://www.phishing.org/what-is-phishing -->
 
-#### Steps involved in phishing 
+#### **Steps involved in phishing**
 1. **Planing** : *Criminals,Usually called as phishers , decide the target and determine how to get E-Mail addres of that target or customers of that bussiness. Phishers often user mailing and adress collectiontechnique as spammers*
 2. **Setup**: *Once a phisher know which business/business house to spoof and who their victims are, they will create methods for delivering the messege and to collect data about the target . Most often this invoilves E-Mail address and a  webpage*
 3. **Attack** : *This is the deep step pople are most familiar with - the phisher sends a phony messege that apppears to be from a reputable source.*
@@ -45,4 +45,10 @@ The information is then used to access important accounts and can result in iden
 
 
 <button onclick="document.location='www.google.com'"> Google</button>
+
+### **Password cracking**
+<i allign="right"> Password cracking is a process of 
+</br></i> <i>recovering passwords from data that havebeen stored in or transmitted by a computer system </i>
+
+
 
