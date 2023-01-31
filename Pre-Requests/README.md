@@ -1,26 +1,48 @@
-### Pre-Requests
+## Pre-Requests
 
 Inorder to Upload it `documentations` and `stuff` to Github you need to know the following things
 - [Linux]()
-- [Git]()
+- [Git](#git)
 - [Github](#github)
-- [Github-Readme.md](#github-readme.md)
+- [Github-Readme.md](#github-readme)
 - [Github-Fork](#github-fork)
 
 ### Git
-
-     Git is a `source control` created  for the `Linux` Kernel by `Linus Torvalds`. Git works the familiar primitives of source control managment systems such as `commits`, `diffs`,`trunks,tags,branches,and so on .However Git has the intrinsic property of beeing a distributed system -a system in which there no official client / server relation ship 
-
-
-
+  _Git is a `source control` created for the `Linux` Kernel by `Linus Torvalds`. Git works the familiar primitives of source control management systems such as `commits`, `diffs`,` trunks, tags, branches, and so on. However, Git has the intrinsic property of being a distributed system - a system in which there is no official client/server relationship. Each repository contains the entire history of revisions. This means that there's no need to have network access or synchronization to a central repository. In essence, a git repository is nonlinear with regard to revisions. two different users may change source code in unique, independent ways without interfering with each other. one benefit of this model is that developers are freer to independently work with, experiment with, and tweak code.
+	Git supports independent development and revision management, it also supports the means to share and incorporate revisions made in unsynchronized repositories._
+	
+#### Working with Repositories 
+  _You can either create( initialize ) or clone a repository._ 
+- **Initializing a repository**
+ ```
+ user@localhost: ~$ mkdir new_project
+ user@localhost: ~$ cd new_project
+ user@localhost: ~/new_project$ git init 
+ ```
+ - **Adding a file**
+```
+ user@localhost: ~/new_project$ touch README.md
+ user@localhost: ~/new_project$ git add README.md 
+ user@localhost: ~/new_project$ git commit -m README.md
+ 
+```
+**Note:***you should edit the README.md file before commiting it othewise it would be jsut a text file also you can add any file by  
+```
+user@localhost: ~/new_project$ mv filename ~/new_project 
+user@localhost: ~/new_project$ git add filename 
+user@localhost: ~/new_project$ git commmit -m filename
+```
+**Note:***You can sjust simply add all file by `$ git add .`*
 ### Github 
 
+jhggjh
+j
 #### Tutorial 
 
 - [ `Youtube ` Malayalam](https://youtu.be/aJ1cbdMdfys)
 
 
-###  Github-Readme.md 
+###  Github-Readme
 
 
 
