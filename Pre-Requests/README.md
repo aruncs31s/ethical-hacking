@@ -1,10 +1,17 @@
 ### Pre-Requests
 
-Inorder to Upload it(`documentations` and `stuff` to Github you need to know the following things 
+Inorder to Upload it `documentations` and `stuff` to Github you need to know the following things
 - [Linux]()
+- [Git]()
 - [Github](#github)
 - [Github-Readme.md](#github-readme.md)
 - [Github-Fork](#github-fork)
+
+### Git
+
+     Git is a `source control` created  for the `Linux` Kernel by `Linus Torvalds`. Git works the familiar primitives of source control managment systems such as `commits`, `diffs`,`trunks,tags,branches,and so on .However Git has the intrinsic property of beeing a distributed system -a system in which there no official client / server relation ship 
+
+
 
 ### Github 
 
