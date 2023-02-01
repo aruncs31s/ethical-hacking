@@ -110,7 +110,28 @@ $ mkdir new-folder
 
 ```
 
-<img  src="./bash/images/mkdir1.png">
+![mkdir](./bash/images/ls-mkdir.png)
+
+![ls-mkdir](./bash/images/mkdir.png)
+
+*we can see that after running `mkdir new-folder` a folder named new-folder is created in the current folder*
+*we used [`ls`](#ls) to list out folders and files the current working directory
+
+*So the basic syntax of mkdir is*
+
+*we can also create multiple directories using [`mkdir`](#mkdir)* 
+
+
+![cd-mkdir](./bash/images/cd-mkdir.png)
+
+![multiple-mkdir](./bash/images/multiple-mkdir.png)
+
+*we can see that if we type more names after  [`mkdir`](#mkdir) it creates mutliple [`directory`](../Dictionary/#directory)*
+
+```
+$ mkdir <foldername> <foldername2> etc
+```
+
 
 
 ### ***ls***
