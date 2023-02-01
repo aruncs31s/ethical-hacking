@@ -37,6 +37,9 @@ _This repo will contain complete tutorial about bash_
 <img src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
 
 </p>
+
+![](https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true)
+
 ---
 
 _Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
@@ -46,7 +49,7 @@ _Shell Scripting is mainly used to automate taks with the help of shell scriptin
 Type Following on any terminal
 
 ```
-$ echo $BASH_VERSION
+$ echo $BASHcd_VERSION
 
 ```
 
