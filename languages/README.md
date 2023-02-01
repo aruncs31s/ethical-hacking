@@ -33,10 +33,10 @@ _This repo will contain complete tutorial about bash_
 - bash or zsh installed
 
 ## Introduction
-
+<p align="center">
 ![](https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true)
 
-
+</p>
 ---
 
 _Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
