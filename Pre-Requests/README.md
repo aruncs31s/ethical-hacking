@@ -41,15 +41,15 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
 	
 	- create a new repository 
 
-	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-1.png)
+	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-1.png?raw=true)
 	
-	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-2.png)
+	![create repo](https://github.com/aruncs31s/ethical-hacking/blob/main/images/create-new-repo-2.png?raw=true)
 	
 	*Click on create repository*
 	
 	- copy the repo link 
 	 
-	 ![repo link](https://github.com/aruncs31s/ethical-hacking/blob/main/images/clone%20repo.png)
+	 ![repo link](https://github.com/aruncs31s/ethical-hacking/raw/main/images/clone%20repo.png)
 	
 	
 
