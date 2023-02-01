@@ -93,7 +93,7 @@ _so we used `ls` to list all the files_
 
 > -h is used to make it human readable 
 
-** To see Other ls arguments and it's properties**  [`click here`]()
+** To see Other ls arguments and it's properties**  [`click here`](../languages/bash/README.md)
 
 
 
