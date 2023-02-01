@@ -34,7 +34,7 @@ _This repo will contain complete tutorial about bash_
 
 ## Introduction
 <p align="center">
-![](https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true)
+<img src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
 
 </p>
 ---
