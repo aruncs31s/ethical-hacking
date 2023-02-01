@@ -33,10 +33,15 @@ _This repo will contain complete tutorial about bash_
 - bash or zsh installed
 
 ## Introduction
-<p align="center">
-<img src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
+<img align="center"  src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
 
-</p>
+
+<!-- 
+
+<img  src="">
+
+-->
+
 ---
 
 _Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
@@ -46,13 +51,17 @@ _Shell Scripting is mainly used to automate taks with the help of shell scriptin
 Type Following on any terminal
 
 ```
-$ echo $BASH_VERSION
+$ echo $BASHcd_VERSION
 
 ```
 
 _this will print current version of bash you are using_
 
-![alt-text](https://github.com/aruncs31s/ethical-hacking/blob/main/images/bash_version.png?raw=true)
+
+
+<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/bash_version.png?raw=true">
+
+
 
 **Important thing to note** _You can get full usage of almost any command in linux usig --help option with_ _sometimes -h also works and do the same_
 eg:
@@ -81,6 +90,7 @@ pwd: pwd [-LP]
 
 | Commands | Description                                     |
 | -------- | ----------------------------------------------- |
+|[`mkdir`](#mkdir)| To make a directories/directory(folder)|
 | [`ls`](#ls)     | List all the files in the current directry      |
 | [`pwd`](#pwd)  | Print the name of the current working directory |
 | `cd`     | change the current working directry             |
@@ -89,6 +99,19 @@ pwd: pwd [-LP]
 
 
 ## ***more about this below***
+
+### ***mkdir***
+  *[`mkdir`](#mkdir) (make directory)*  is used to create directory(folder) or miltiple directories (folders)
+
+*we can create a folder called new-directory using mkdie*
+
+```
+$ mkdir new-folder
+
+```
+
+<img  src="./bash/images/mkdir1.png">
+
 
 ### ***ls***
 
@@ -100,7 +123,12 @@ $ ls /bin
 
 _so we used `ls` to list all the files_
 
-![ls](https://github.com/aruncs31s/bash/blob/main/images/ls.png?raw=ture)
+<img src="https://github.com/aruncs31s/bash/blob/main/images/ls.png?raw=true">
+
+
+
+
+
 
 *we can give some arguments to the ls command which will produce diffrent outputs*
 *for example "-lh" argument combined with `ls` will show you the size of that file*
