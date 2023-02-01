@@ -93,9 +93,9 @@ pwd: pwd [-LP]
 |[`mkdir`](#mkdir)| To make a directories/directory(folder)|
 | [`ls`](#ls)     | List all the files in the current directry      |
 | [`pwd`](#pwd)  | Print the name of the current working directory |
-| `cd`     | change the current working directry             |
-| `mv`| move files to directories or rename files|
-|`cp`|copy files to directories |
+| [`cd`](#cd)     | change the current working directry             |
+| [`mv`](#mv)| move files to directories or rename files|
+|[`cp`](#cp)|copy files to directories |
 
 
 ## ***more about this below***
@@ -111,13 +111,9 @@ $ mkdir new-folder
 ```
 
 ![mkdir](./bash/images/ls-mkdir.png)
+[`mkdir`](#mkdir)o list out folders and files the current working directory
 
-![ls-mkdir](./bash/images/mkdir.png)
 
-*we can see that after running `mkdir new-folder` a folder named new-folder is created in the current folder*
-*we used [`ls`](#ls) to list out folders and files the current working directory
-
-*So the basic syntax of mkdir is*
 
 *we can also create multiple directories using [`mkdir`](#mkdir)* 
 
@@ -126,12 +122,15 @@ $ mkdir new-folder
 
 ![multiple-mkdir](./bash/images/multiple-mkdir.png)
 
-*we can see that if we type more names after  [`mkdir`](#mkdir) it creates mutliple [`directory`](../Dictionary/#directory)*
+*we can see that if we type more names after  [`mkdir`](#mkdir) it creates mutliple [`directory`](../Dictionary#directory)*
+
+*So the basic syntax of mkdir is*
 
 ```
-$ mkdir <foldername> <foldername2> etc
-```
+$ mkdir <foldername> <foldername2> ...
 
+```
+learn more about `mkdir`     [here](https://www.gnu.org/software/coreutils/mkdir)
 
 
 ### ***ls***
@@ -160,24 +159,13 @@ _so we used `ls` to list all the files_
 
 > -h is used to make it human readable 
 
-**To see Other ls arguments and it's properties**  [`click here`](../languages/bash/README.md/#ls)
+*Learn more about  `ls`  [here](https://www.gnu.org/software/coreutils/ls) 
+
+
+
+
 
 
 ### ***pwd***
-
-
-
-
-
-
-
-
-
-
-**File Related commands**
-
-
-
-
-
-*****Linux programs found in /bin**
+  *`pwd` is used to know your [current directory](../Dictionar#current-directory)*
+  
