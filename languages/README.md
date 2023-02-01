@@ -24,7 +24,7 @@ _This repo will contain complete tutorial about bash_
 
 - [Introduction](#introduction)
 - [Basic commands](#basic-commands)
-- [All commands used](#all-commands-used)
+- [Paths](#paths)
 -
 
 ### Pre-requests
@@ -84,11 +84,11 @@ pwd: pwd [-LP]
     cannot be read
 ```
 
-### Basic commands
+## Basic commands
 
 
 
-| Commands | Description                                     |
+| Commands | De[All commands used](#all-commands-used)scription                                     |
 | -------- | ----------------------------------------------- |
 |[`mkdir`](#mkdir)| To make a directories/directory(folder)|
 | [`ls`](#ls)     | List all the files in the current directry      |
@@ -168,4 +168,19 @@ _so we used `ls` to list all the files_
 
 ### ***pwd***
   *`pwd` is used to know your [current directory](../Dictionar#current-directory)*
-  
+
+![pwd](./bash/images/pwd.png)
+
+*The /home/aruncs folder have an nother property it is yout home path*
+
+## Paths
+
+**HOME**
+*home path will be always be your /home/username unless you cange it*
+
+![home](./bash/images/echo%20%24HOME.png)
+
+*Also `~` this symbol is linked to HOME variable/reference*
+
+![~](./bash/images/echo%20~.png)
+
