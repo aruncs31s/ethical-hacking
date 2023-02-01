@@ -34,6 +34,9 @@ _This repo will contain complete tutorial about bash_
 
 ## Introduction
 
+![](https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true)
+
+
 ---
 
 _Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
@@ -74,6 +77,21 @@ pwd: pwd [-LP]
 
 ### Basic commands
 
+
+
+| Commands | Description                                     |
+| -------- | ----------------------------------------------- |
+| [`ls`](#ls)     | List all the files in the current directry      |
+| [`pwd`](#pwd)  | Print the name of the current working directory |
+| `cd`     | change the current working directry             |
+| `mv`| move files to directories or rename files|
+|`cp`|copy files to directories |
+
+
+## ***more about this below***
+
+### ***ls***
+
 _Normaly bash program will be situated under the /bin folder where almost all the user executable programs contains you can take a look at what inside that folder by_
 
 ```
@@ -93,24 +111,23 @@ _so we used `ls` to list all the files_
 
 > -h is used to make it human readable 
 
-** To see Other ls arguments and it's properties**  [`click here`](../languages/bash/README.md)
+**To see Other ls arguments and it's properties**  [`click here`](../languages/bash/README.md/#ls)
+
+
+### ***pwd***
 
 
 
 
 
 
-## **All commands used**
+
+
+
 
 **File Related commands**
 
-| Commands | Description                                     |
-| -------- | ----------------------------------------------- |
-| `ls`     | List all the files in the current directry      |
-| `pwd`    | Print the name of the current working directory |
-| `cd`     | change the current working directry             |
-| `mv`| move files to directories or rename files|
-|`cp`|copy files to directories |
+
 
 
 
