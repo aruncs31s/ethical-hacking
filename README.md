@@ -7,7 +7,7 @@
 - [Basics](#basics)
 - [languages](#languages)
 - [Pre-Requests](#pre-requests)
-    - [Linux]()
+    - [Linux](./Pre-Requests#linux)
 - [Hacks](#hacks)
 - [Scripts](#scripts)
 - [Tools Used](#Tools-Used)
