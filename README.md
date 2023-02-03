@@ -52,7 +52,10 @@ This sections's discus about all basic hacks
 - [wifi password hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/Wifi%20Hacking)
 
 ## Scripts 
+*Followings are scripts made for this project*
+
 - [payload-generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
+- [Neovim theme installer](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
 
 ## Exploits 
 
@@ -61,14 +64,15 @@ This sections's discus about all basic hacks
 
 ## Tools-Used
  
-`Metasploit`   `gcc`
+`Metasploit`   `gcc`  `Nikto` `nmap` 
+
 ## Contact
 
 [Telegram](https://t.me/+mqL4fZrUtEw0MjJl)
 
 ## Team Members
 
-**Arun CS** [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/aruncs31s/) 
+**Arun CS** [![](https://s18955.pcdn.co/wp)](https://github.com/aruncs31s/) 
 
 **Amarnath**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/amarnath749)
 
