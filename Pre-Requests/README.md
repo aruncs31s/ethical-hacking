@@ -3,19 +3,25 @@
 Inorder to Upload it `documentations` and `stuff` to Github you need to know the following things
 - [Linux](#linux)
 - [Git](#git)
+    - [Introduction](#git#introduction)
 - [Github](#github)
 - [Github-Readme.md](#github-readme)
 - [Github-Fork](#github-fork)
 
 ### Linux
-  
+  Linux is easy and the same difficult to understand if you don't have enough technical knowledge
 
 
 ### Git
-  _Git is a `source control` created for the `Linux` Kernel by `Linus Torvalds`. Git works the familiar primitives of source control management systems such as `commits`, `diffs`,` trunks, tags, branches, and so on. However, Git has the intrinsic property of being a distributed system - a system in which there is no official client/server relationship. Each repository contains the entire history of revisions. This means that there's no need to have network access or synchronization to a central repository. In essence, a git repository is nonlinear with regard to revisions. two different users may change source code in unique, independent ways without interfering with each other. one benefit of this model is that developers are freer to independently work with, experiment with, and tweak code.
-	Git supports independent development and revision management, it also supports the means to share and incorporate revisions made in unsynchronized repositories._
+- [Introduction](#gitintroduction)
+- [Installation](#git-installation)
+- [Working with Repositories ](#working-with-repositories)
+#### **Git Introduction**
 
-#### Installation
+  Git is a `source control` created for the `Linux` Kernel by `Linus Torvalds`. Git works the familiar primitives of source control management systems such as `commits`, `diffs`,` trunks, tags, branches, and so on. However, Git has the intrinsic property of being a distributed system - a system in which there is no official client/server relationship. Each repository contains the entire history of revisions. This means that there's no need to have network access or synchronization to a central repository. In essence, a git repository is nonlinear with regard to revisions. two different users may change source code in unique, independent ways without interfering with each other. one benefit of this model is that developers are freer to independently work with, experiment with, and tweak code.
+	Git supports independent development and revision management, it also supports the means to share and incorporate revisions made in unsynchronized repositories.
+
+#### Git Installation
 If your using `debian` based os you should have [`apt`](../Tools-Used#apt) or if yiu have `arch` based os you shold have `pacman`
 
 
@@ -64,7 +70,7 @@ If your using `debian` based os you should have [`apt`](../Tools-Used#apt) or if
 
 
 ### Github 
-
+  Github itself is selfexplanatory just goto [https://github.com](#https://github.com)
 
 
 #### Tutorial 
