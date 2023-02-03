@@ -7,7 +7,7 @@
 - [Basics](#basics)
 - [languages](#languages)
 - [Pre-Requests](#pre-requests)
-    - [Linux](./Pre-Requests/#linux)
+    - [Linux](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#linux)
 - [Hacks](#hacks)
 - [Scripts](#scripts)
 - [Tools Used](#Tools-Used)
