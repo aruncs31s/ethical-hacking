@@ -9,7 +9,7 @@
 - [Pre-Requests](#pre-requests)
 - [Hacks](#hacks)
 - [Scripts](#scripts)
-- [Tools-Used](#Tools-Used)
+- [Tools Used](#Tools-Used)
 - [Team Members](#team-members)
 - [Join us](#join-us)
 - [Credits]()
@@ -35,8 +35,8 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 ## Basics 
 - [Proxy Servers and Stay Anonymous](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#proxy-servers-and-stay-anonymous)
 - [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
-This sections's discus about all basic hacks
-[click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
+
+This sections's discus about all basic hacks [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
 
 ## Languages
 - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
