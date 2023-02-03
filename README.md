@@ -7,6 +7,7 @@
 - [Basics](#basics)
 - [languages](#languages)
 - [Pre-Requests](#pre-requests)
+    - [Linux]()
 - [Hacks](#hacks)
 - [Scripts](#scripts)
 - [Tools Used](#Tools-Used)
@@ -42,6 +43,26 @@ This sections's discus about all basic hacks [click here](https://github.com/aru
 - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
 
 ## Pre-Requests
+
+
+- [Linux](./Pre-Requests#linux)
+    - [Rookie](./Pre-Requests#rookie)
+        - [Introduction]()
+        - [Firing Up]()
+    - [Intermediate](#intermediate)
+        - [Introduction]()
+        - [tty]()
+        - [Terminal]()
+    - [Expert](#expert)
+- [Git](#git)
+    - [Introduction](#git-introduction)
+    - [Installition](#git-installition)
+    - [Working with Repos](#working-with-repositories)
+    - 
+- [Github](#github)
+- [Github-Readme.md](#github-readme)
+- [Github-Fork](#github-fork)
+
 
 [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests)
 
