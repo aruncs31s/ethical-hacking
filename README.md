@@ -66,7 +66,7 @@ This sections's discus about all basic hacks
 
 ## Tools-Used
  
-`Metasploit`   `gcc`  `Nikto` `nmap` 
+[`Metasploit`](./Tools-used#metasploit)  `gcc`  `Nikto` `nmap` 
 
 ## Contact
 

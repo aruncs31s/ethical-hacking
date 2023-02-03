@@ -1,63 +1,10 @@
-# Tools-Used 
+# Tools Used
 
-<html>
-<body>
+| Tool Name | Description| 
+|-----------|-------------|
+|[`Metasploit`](#metasploit)|provides information about security vulnerabilities and aids in penetration testing|
+| | |
 
-<table BORDER=1 >
-<CAPTION align="left"> TEST </CAPTION>
-
-<TR>
-<TH > <a href=#avahi-deamon>avahi-deamon</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a     href=#metasploit>bully</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a      href=#metasploit>hashcat</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a       href=#metasploit>pyrit</TH>
-<TH>gfgfgfgfg </TH>
-</TR>
-<TR>
-<TH > <a href=#metasploit>hcxdumptool</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a href=#metasploit>hcspcapngtool</TH>
-<TH> </TH>
-</TR>
-v
-<TR>
-<TH > <a href=#metasploit>gcc</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a href=#metasploit>metasploit</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH          > <a href=#metasploit>metasploit</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a href=#metasploit>macchanger</TH>
-<TH> </TH>
-</TR>
-<TR>
-<TH > <a href=#metasploit>metasploit</TH>
-<TH> </TH>
-</TR>
-v
-<TR>
-<TH > <a    href=#metasploit>wifite2</TH>
-<TH> </TH>
-</TR>
-
-</table>
 
 
 
@@ -68,16 +15,26 @@ v
     The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7
     </p>
     
-### Instalision
+### **Instalision**
 
-## Linux
-```diff
- + sudo apt install metasploit-framework
+#### **Linux**
+```
+ $ sudo apt install metasploit-framework
+
+```
+*if the following is not available*
 
 ```
 
-[official website](https://www.metasploit.com)
+wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run
 
+chmod +x ./metasploit-latest-linux-x64-installer.run
 
-</body>
-</html>
+./metasploit-latest-linux-x64-installer.run
+
+```
+for more details check [here](https://adamtheautomator.com/install-metasploit-on-ubuntu/)
+
+[official Website](https://www.metasploit.com)
+
+[official Repository](https://github.com/rapid7/metasploit-framework)
