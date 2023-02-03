@@ -5,11 +5,37 @@
 
 - [Introduction](#introduction)
 - [Basics](#basics)
+  - [Proxy Servers and Stay Anonymous]()
 - [languages](#languages)
+  - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#bash)
+  - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
+  - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c)
+  - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
+  - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html)
 - [Pre-Requests](#pre-requests)
     - [Linux](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#linux)
+      - [Rookie](./Pre-Requests#rookie)
+        - [Introduction]()
+        - [Firing Up]()
+      * [Intermediate]()
+        - [Introduction]()
+        - [tty]()
+        - [Terminal]()
+      - [Expert](#expert)
+    - [Git](#git)
+      - [Introduction](#git-introduction)
+      - [Installition](#git-installition)
+      - [Working with Repos](#working-with-repositories)
+    - [Github](#github)
+    - [Github-Readme.md](#github-readme)
+    - [Github-Fork](#github-fork)
 - [Hacks](#hacks)
+  - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
+  - [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
+  - [wifi password hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/Wifi%20Hacking)
 - [Scripts](#scripts)
+  - [Payload Generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
+  - [Neovim theme installer](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
 - [Tools Used](#Tools-Used)
 - [Team Members](#team-members)
 - [Join us](#join-us)
@@ -43,7 +69,7 @@ This sections's discus about all basic hacks [click here](https://github.com/aru
 - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
 
 ## Pre-Requests
-
+  <p align="justify"> followings are required to function effectively on this project and essential in bocoming an ethical hacker</p>
 
 - [Linux](./Pre-Requests#linux)
     - [Rookie](./Pre-Requests#rookie)
@@ -121,6 +147,6 @@ This sections's discus about all basic hacks [click here](https://github.com/aru
 for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
 
 ### References
-- **ANTI-HACKER TOOL KIT Fourth Edition by Mike Shema**
-- **YOUR UNIX THE ULTIMATE GUIDE by Sumitabha Das**
-- **CYBER SECURITY Understanding Cyber Crimes,Computer Forensics and Legal Perspectives by Nina Godbole , Sunit Belapure**
+- ANTI-HACKER TOOL KIT Fourth Edition by Mike Shema
+- YOUR UNIX THE ULTIMATE GUIDE by Sumitabha Das
+- CYBER SECURITY Understanding Cyber Crimes,Computer Forensics and Legal Perspectives by Nina Godbole , Sunit Belapure
