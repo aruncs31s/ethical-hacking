@@ -72,26 +72,26 @@ This sections's discus about all basic hacks
 
 ## Team Members
 
-**Arun CS** [![](https://s18955.pcdn.co/wp)](https://github.com/aruncs31s/) 
+**Arun CS** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/aruncs31s/) 
 
-**Amarnath**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/amarnath749)
+**Amarnath**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/amarnath749)
 
-**Goutham Naik**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/Gouthamexe)
+**Goutham Naik**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Gouthamexe)
 
-**Anurag M K**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Anurag M K**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
 
-**Sony Thomas**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/sonyt86)
+**Sony Thomas**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/sonyt86)
 
-**MaxStee**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/Maxsteee)
+**MaxStee**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Maxsteee)
 
 
-**Anoop J J**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Anoop J J**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
 
-**Athul vv** [<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>](https://github.com/athulvv1)
+**Athul vv** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/athulvv1)
 
-**Swetha Kc**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Swetha Kc**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
 
-**Aslam**[<img src="https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png" width="16"/>]()
+**Aslam**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
 
 ### Join us
 *you can join us and simply start learning together 
