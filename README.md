@@ -74,7 +74,7 @@ This sections's discus about all basic hacks
 
 ## Team Members
 
-**Arun CS** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/aruncs31s/) 
+**Arun CS** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/aruncs31s/)  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/telegram-logo-944.png?raw=true" width="16">](https://t.me/killadinjan)
 
 **Amarnath**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/amarnath749)
 
