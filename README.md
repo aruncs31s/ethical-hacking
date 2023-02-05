@@ -4,14 +4,6 @@
 # Ethical-hacking
 
 - [Introduction](#introduction)
-- [Basics](#basics)
-  - [Proxy Servers and Stay Anonymous]()
-- [languages](#languages)
-  - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#bash)
-  - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
-  - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c)
-  - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
-  - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html)
 - [Pre-Requests](#pre-requests)
     - [Linux](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#linux)
       - [Rookie](./Pre-Requests#rookie)
@@ -29,6 +21,17 @@
     - [Github](#github)
     - [Github-Readme.md](#github-readme)
     - [Github-Fork](#github-fork)
+
+
+- [Basics](#basics)
+  - [Proxy Servers and Stay Anonymous]()
+- [languages](#languages)
+  - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#bash)
+  - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
+  - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c)
+  - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
+  - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html)
+
 - [Hacks](#hacks)
   - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
   - [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
