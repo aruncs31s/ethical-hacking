@@ -109,6 +109,7 @@ This sections's discus about all basic hacks [click here](https://github.com/aru
 
 - [payload-generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
 - [Neovim theme installer](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
+- [Ransomware generator](https://github.com/sonyt86/ethical-hacking/blob/main/Scripts/ransomware.py)
 
 ## Exploits 
 
