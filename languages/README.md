@@ -72,12 +72,19 @@ this will print current version of bash you are using
 </details>
 <details>
 <summary>$ :</summary>
+ "$" is used when when calling an object 
+ eg: consider the following example 
 
-$ 
+ ![variable](../images/variable-1.png)
+
+ in the above example we did assign a value to a newly initiated variable A , and we tried to print its value using [`echo`](#echo) but it is not printing the value of A that we initialy assigned 
+
+ Now consider an another example
+
+ ![varible](../images/variable-2.png)
+ In this above example we got exactly we have expected ie, using `echo` we where able to print the value of `A` that we're initialy assigned
 
 </details>
-
-
 
 <details>
 <summary>Notes: </summary>You can get full usage of almost any command in linux usig --help option with_ _sometimes -h also works and do the same_
@@ -100,7 +107,6 @@ pwd: pwd [-LP]
     Returns 0 unless an invalid option is given or the current directory
     cannot be read
 ```
-
 </details>
 
 ## Basic commands
@@ -180,11 +186,6 @@ _so we used `ls` to list all the files_
 
 *Learn more about  `ls`  [here](https://www.gnu.org/software/coreutils/ls) 
 
-
-
-
-
-
 ### ***pwd***
   *`pwd` is used to know your [current directory](../Dictionar#current-directory)*
 
@@ -210,27 +211,47 @@ cd /path/to/the/folder
 
 ```
 
+
+
 ![ls-pwd](../images/ls-pwd.png)
 
-<details>
-<summary>Notes</summary>
-<p>
-*we can see there is a folder named test in our current working directry*</p>
+we can see there is a folder named test in our current working directry
 
-</details>
+
 Tip: We used [`ls`](#ls) command to list(to see as a list) the files
 
 ![ls-pwd](../images/ls-pwd-cd.png)
-*Dont confuse with that path name we will cover that 
-linux file system arangement* 
 
-*Now 
+*Dont confuse with that path name, we will cover that one in
+linux file system* 
+
+*So specified the path name after cd , after that we can see that our current directory is changed to `/tmp/test/test` before it was `/tmp/test`
+
+### **cp**
+**cp** is used to copy files/folders  
 
 
 
 
+#### Usage
+```
+cp name1 name2 
+
+```
+which renames name1 to name2 
 
 
+
+<details>
+<summary>Explenation: </summary>
+
+</details>
+
+---
+### **mv**
+**mv** is mainly used to move or renames files the 
+
+---
 ## Paths
 
 **HOME**
