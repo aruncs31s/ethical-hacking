@@ -171,7 +171,45 @@ _so we used `ls` to list all the files_
 
 ![pwd](./bash/images/pwd.png)
 
-*The /home/aruncs folder have an nother property it is yout home path*
+*The /home/aruncs folder have an nother property it is yout home path* [more about this](#paths)
+
+
+
+### ***cd***
+  `cd` is used for changing working [`directries`](../Dictionary/README.md/#directory)(folder)
+
+*To understand this simply consider if we have to delete a file which we have downloaded from internet and we dont know it's name but it is in the folder `$HOME/Downloads` we can do this in many ways azbut one of the easyest way is to go into the folder and inspect the files and delete the one that we dont need suppose we want to delete song.mp3 form download ; we first need to go to the folder specified above so inorder to go to that folder we use `cd`(change directory) command*
+
+#### Usage
+``` 
+cd /path/to/the/folder
+
+```
+
+![ls-pwd](../images/ls-pwd.png)
+
+*we can see there is a folder named test in our current working directry*
+
+
+
+<>
+Tip: We used [`ls`](#ls) command to list(to see as a list) the files
+
+
+
+
+![ls-pwd](../images/ls-pwd-cd.png)
+
+
+
+*Dont confuse with that path name we will cover that linux file system arangement*
+
+
+
+
+
+
+
 
 ## Paths
 
