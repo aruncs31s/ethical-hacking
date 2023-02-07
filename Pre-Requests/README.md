@@ -16,6 +16,7 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
     - [Working with Repos](#working-with-repositories)
     - 
 - [Github](#github)
+
 - [Github-Readme.md](#github-readme)
 - [Github-Fork](#github-fork)
 
@@ -86,6 +87,14 @@ If your using `debian` based os you should have [`apt`](../Tools-Used#apt) or if
 
 ### Github 
   Github itself is selfexplanatory just goto [https://github.com](https://github.com)
+
+
+#### Tocken Generation
+
+
+![]()
+<video controls> <source  src="../video/tocken_generation.webm" type="video/mpeg"></source>
+</video>
 
 
 #### Tutorial 
