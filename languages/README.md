@@ -1,23 +1,27 @@
-# *Bash* 
-**currently beeing constrected in another repo**
-*https://github.com/aruncs31s/bash*
+
+
+
+
+# Languages
+
+- [Bash](#bash)
+
+
+
+## Bash
+
 - [Introduction](#introduction)
-- [Creating a Script]()
-
-
-# [Bash]()
+- [Basic commands](#basic-commands)
+- [Paths](#paths)
+-
 
 ### Pre-requests
 
 
 
 ## Introduction
-
 --- 
-<p align=justify>
-    Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems 
-
-</p>
+          Shell Scripting is mainly used to automate taks with the help of shell scripting language, and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems 
 
 
 _This repo will contain complete tutorial about bash_
@@ -28,21 +32,19 @@ _This repo will contain complete tutorial about bash_
 -
 
 ### Pre-requests
-
+- PC or Termux or ish
 - a terminal
 - bash or zsh installed
 
 ## Introduction
-<img align="center"  src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
-
-
 <!-- 
+<img align="center"  src="https://github.com/aruncs31s/bash/blob/main/images/terminal.png?raw=true">
 
 <img  src="">
 
 -->
-
 ---
+
 
 _Shell Scripting is mainly used to automate taks with the help of shell scripting language and Bash is the most used of em' `Bash` is the default shell in allmost all linux operating systems_
 
@@ -51,19 +53,34 @@ _Shell Scripting is mainly used to automate taks with the help of shell scriptin
 Type Following on any terminal
 
 ```
-$ echo $BASHcd_VERSION
+$ echo $BASH_VERSION
 
 ```
 
-_this will print current version of bash you are using_
+
+this will print current version of bash you are using
 
 
 
 <img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/bash_version.png?raw=true">
 
 
+<details>
+<summary>echo :</summary>
+<a href="#echo">echo  </a>is same as printf in c programming or print in python programming the oly diffrence is more like the main diffrence is in its syntax , that it does not need a bracket before giving the strings as its arguments or the value that you want to display into the monitor/screen in this case
 
-**Important thing to note** _You can get full usage of almost any command in linux usig --help option with_ _sometimes -h also works and do the same_
+</details>
+<details>
+<summary>$ :</summary>
+
+$ 
+
+</details>
+
+
+
+<details>
+<summary>Notes: </summary>You can get full usage of almost any command in linux usig --help option with_ _sometimes -h also works and do the same_
 eg:
 
 ```
@@ -84,12 +101,12 @@ pwd: pwd [-LP]
     cannot be read
 ```
 
+</details>
+
 ## Basic commands
 
-
-
-| Commands | De[All commands used](#all-commands-used)scription                                     |
-| -------- | ----------------------------------------------- |
+| Commands |  Description           |
+| :--------: | ------------------------ |
 |[`mkdir`](#mkdir)| To make a directories/directory(folder)|
 | [`ls`](#ls)     | List all the files in the current directry      |
 | [`pwd`](#pwd)  | Print the name of the current working directory |
@@ -148,10 +165,12 @@ _so we used `ls` to list all the files_
 
 
 
-
-
+<details>
+<summary>Notes: </summary>
 *we can give some arguments to the ls command which will produce diffrent outputs*
 *for example "-lh" argument combined with `ls` will show you the size of that file*
+</details>
+
 
 ![](https://github.com/aruncs31s/bash/blob/main/images/ls%20-lh.png?raw=true)
 
@@ -178,9 +197,14 @@ _so we used `ls` to list all the files_
 ### ***cd***
   `cd` is used for changing working [`directries`](../Dictionary/README.md/#directory)(folder)
 
+
+<details>
+<summary>Notes</summary>
 *To understand this simply consider if we have to delete a file which we have downloaded from internet and we dont know it's name but it is in the folder `$HOME/Downloads` we can do this in many ways azbut one of the easyest way is to go into the folder and inspect the files and delete the one that we dont need suppose we want to delete song.mp3 form download ; we first need to go to the folder specified above so inorder to go to that folder we use `cd`(change directory) command*
+</details>
 
 #### Usage
+
 ``` 
 cd /path/to/the/folder
 
@@ -188,23 +212,19 @@ cd /path/to/the/folder
 
 ![ls-pwd](../images/ls-pwd.png)
 
-*we can see there is a folder named test in our current working directry*
+<details>
+<summary>Notes</summary>
+<p>
+*we can see there is a folder named test in our current working directry*</p>
 
-
-
-<>
+</details>
 Tip: We used [`ls`](#ls) command to list(to see as a list) the files
 
-
-
-
 ![ls-pwd](../images/ls-pwd-cd.png)
+*Dont confuse with that path name we will cover that 
+linux file system arangement* 
 
-
-
-*Dont confuse with that path name we will cover that linux file system arangement*
-
-
+*Now 
 
 
 

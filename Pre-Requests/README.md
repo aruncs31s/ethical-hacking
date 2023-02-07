@@ -22,6 +22,13 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
 
 ### Linux
   Linux is easy and the same difficult to understand if you don't have enough technical knowledge . I have devided this tutorial for Rookie,Intermediate,Expert so that you can choose according to you level
+
+#### Linux File System
+
+![linux file system](../images/linux-file-system.webp?raw=true) 
+
+**/bin :**  
+
   
 #### Linux for Rookies
   
