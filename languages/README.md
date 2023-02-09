@@ -134,6 +134,7 @@ $ mkdir new-folder
 ```
 
 ![mkdir](./bash/images/ls-mkdir.png)
+
 [`mkdir`](#mkdir)o list out folders and files the current working directory
 
 
@@ -228,6 +229,7 @@ linux file system*
 *So specified the path name after cd , after that we can see that our current directory is changed to `/tmp/test/test` before it was `/tmp/test`
 
 ### **cp**
+
 **cp** is used to copy files/folders  
 
 
@@ -235,24 +237,103 @@ linux file system*
 
 #### Usage
 ```
-cp name1 name2 
-
+cp old_name new_name 
 ```
-which renames name1 to name2 
+which renames file named name1 to name2 
 
+**Note:** We can use cp to copy folders as well as files 
 
-
-<details>
-<summary>Explenation: </summary>
+<details><summary>Explenation: </summary>
 
 </details>
+
+<details><summary>Eg: </summary>
+```
+$ ls
+
+song.mp3
+
+$ cp song.mp3 old_song.mp3 
+
+$ ls
+
+old_song.mp3
+```
+
+</details>
+
+
+
 
 ---
 ### **mv**
 **mv** is mainly used to move or renames files the 
 
+#### Uses
+
+```
+mv old_name new_name
+
+```
+
+
+##### Files
+```
+mv old_name new_name
+```
+
+**Note:** We can use `mv` to rename both folders and files
+
+
+<details><summary>Explenation: </summary>
+
+
+</details>
+
 ---
+
 ## Paths
+
+<details><summary>Extra: </summary>
+*We can check the current Varriables that are beeing used by just typing system
+
+```
+$ set
+BASH=/usr/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:globasciiranges:histappend:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=([0]="0")
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_COMPLETION_VERSINFO=([0]="2" [1]="11")
+BASH_LINENO=()
+BASH_REMATCH=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="5" [1]="1" [2]="4" [3]="1" [4]="release" [5]="x86_64-pc-linux-gnu")
+BASH_VERSION='5.1.4(1)-release'
+COLORTERM=truecolor
+COLUMNS=127
+COMP_WORDBREAKS=$' \t\n"\'><=;|&(:'
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=lightdm-xsession
+DIRSTACK=()
+DISPLAY=:0.0
+EUID=1000
+GDMSESSION=lightdm-xsession
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GROUPS=()
+GTK_MODULES=gail:atk-bridge
+GTK_OVERLAY_SCROLLING=0
+HISTCONTROL=ignoreboth
+HISTFILE=/home/axux/.bash_history
+HISTFILESIZE=2000
+HISTSIZE=1000
+HOME=/home/axux
+HOSTNAME=parrot
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+```
+</details>
 
 **HOME**
 *home path will be always be your /home/username unless you cange it*
