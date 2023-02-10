@@ -119,7 +119,7 @@ pwd: pwd [-LP]
 | [`cd`](#cd)     | change the current working directry             |
 | [`mv`](#mv)| move files to directories or rename files|
 |[`cp`](#cp)|copy files to directories |
-
+| [`rm`](#rm)| To remove files/directories | 
 
 ## ***more about this below***
 
@@ -291,6 +291,35 @@ mv old_name new_name
 </details>
 
 ---
+### **rm**
+    `rm` is used to remove files or folders, 
+
+#### Usage
+
+```
+rm file_name
+
+rm folder_name
+
+
+```
+<details><summary>Note: </summary>Inorder to remove folders/directories you need to use `--recursive` `-r` and you can also force the deletion using `-f` `--force` argument</details>
+
+[more details](https://gnu.org/software/coreutils/rm)
+
+```
+$ ls
+
+song.mp3
+
+$ rm song.mp3
+
+$ ls
+
+$
+```
+
+
 
 ## Paths
 
@@ -336,6 +365,7 @@ IFS=$' \t\n'
 </details>
 
 **HOME**
+
 *home path will be always be your /home/username unless you cange it*
 
 ![home](./bash/images/echo%20%24HOME.png)
@@ -343,4 +373,7 @@ IFS=$' \t\n'
 *Also `~` this symbol is linked to HOME variable/reference*
 
 ![~](./bash/images/echo%20~.png)
+
+
+
 
