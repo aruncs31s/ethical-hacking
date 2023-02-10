@@ -5,7 +5,7 @@
 # Languages
 
 - [Bash](#bash)
-
+- [python](#python)
 
 
 ## Bash
@@ -375,5 +375,56 @@ IFS=$' \t\n'
 ![~](./bash/images/echo%20~.png)
 
 
+
+
+
+## python
+
+- [ Creating a simple server](#creating-a-simple-server)
+
+- [Downloading Youtube videos](#youtube-dl)
+###  Creating a simple server
+
+ if you have python 2.x
+
+ ``` 
+ python -m SimpleHTTPServer
+
+ ```
+
+ if you have python 3.x
+
+ ```
+ python3 -m http.server
+ ```
+
+### Downloading Youtube videos
+#### Requires 
+`youtube-dl`
+#### Installition
+```
+pip3 install youtube-dl
+```
+
+#### Usage 
+
+##### video
+
+```
+
+youtube-dl <link> 
+
+```
+ **best**
+```
+youtube-dl -f best <URL>
+
+```
+
+##### audio 
+
+
+```
+youtube-dl -x --audio-format mp3 <URL>
 
 
