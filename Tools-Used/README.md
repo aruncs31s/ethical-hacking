@@ -4,7 +4,12 @@
 | Tool Name | Usage| 
 |-----------|-------------|
 |[`Metasploit`](#metasploit)|provides information about security vulnerabilities and aids in penetration testing|
-| | |
+|[`tor`](#tor) |Tor is a connection-based low-latency anonymous communication system |
+| [`proxychains`]() |Proxy chains force any tcp connection made by any given tcp client
+to follow through proxy (or proxy chain). It is a kind of proxifier.
+It acts like sockscap / premeo / eborder driver ( intercepts TCP calls )  |
+
+
 
 
 ## Utilities 
@@ -46,6 +51,75 @@ for more details check [here](https://adamtheautomator.com/install-metasploit-on
 
 [official Repository](https://github.com/rapid7/metasploit-framework)
 
+### tor
+<!--source apt show tor -->
+
+**Source = apt show tor**
+
+Tor is a connection-based low-latency anonymous communication system.
+Clients choose a source-routed path through a set of relays, and
+ negotiate a "virtual circuit" through the network, in which each relay
+ knows its predecessor and successor, but no others. Traffic flowing
+ down the circuit is decrypted at each relay, which reveals the
+ downstream relay.
+ .
+ Basically, Tor provides a distributed network of relays. Users bounce
+ their TCP streams (web traffic, ftp, ssh, etc) around the relays, and
+ recipients, observers, and even the relays themselves have difficulty
+ learning which users connected to which destinations.
+ .
+ This package enables only a Tor client by default, but it can also be
+ configured as a relay and/or a hidden service easily.
+ .
+ Client applications can use the Tor network by connecting to the local
+ socks proxy interface provided by your Tor instance. If the application
+ itself does not come with socks support, you can use a socks client
+ such as torsocks.
+ .
+ Note that Tor does no protocol cleaning on application traffic. There
+ is a danger that application protocols and associated programs can be
+ induced to reveal information about the user. Tor depends on Torbutton
+ and similar protocol cleaners to solve this problem. For best
+ protection when web surfing, the Tor Project recommends that you use
+ the Tor Browser Bundle, a standalone tarball that includes static
+ builds of Tor, Torbutton, and a modified Firefox that is patched to fix
+ a variety of privacy bugs.
+
+
+### proxychains
+
+**Source = apt show proxychains**
+Proxy chains force any tcp connection made by any given tcp client
+to follow through proxy (or proxy chain). It is a kind of proxifier.
+It acts like sockscap / premeo / eborder driver ( intercepts TCP calls )
+
+.
+ This version supports SOCKS4, SOCKS5 and HTTP CONNECT proxy servers.
+ Different proxy types can be mixed in the same chain.
+ .
+ Features
+   * Access Internet from behind restrictive firewall.
+   * Source IP masquerade.
+   * SSH tunneling and forwarding.
+   * Dynamic LAN-to-LAN VPN channel.
+   * Servers and daemons friendly (works fine with sendmail MTA).
+ .
+ http://proxychains.sourceforge.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### **apt**
 <!-- source apt -h -->
@@ -66,7 +140,10 @@ eg : $ apt install gimp
 ```
 $ apt remove package-name
 ```
-eg : ```$ apt remove gimp```
+eg : 
+```
+$ apt remove gimp
+```
 
 #### most used commands
 
