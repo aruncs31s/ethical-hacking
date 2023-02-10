@@ -287,7 +287,7 @@ mv old_name new_name
 
 <details><summary>Explenation: </summary>
 
-
+f
 </details>
 
 ---
@@ -323,7 +323,6 @@ $
 
 ## Paths
 
-<details><summary>Extra: </summary>
 *We can check the current Varriables that are beeing used by just typing system
 
 ```
@@ -362,7 +361,6 @@ HOSTNAME=parrot
 HOSTTYPE=x86_64
 IFS=$' \t\n'
 ```
-</details>
 
 **HOME**
 
