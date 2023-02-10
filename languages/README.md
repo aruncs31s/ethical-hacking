@@ -247,7 +247,6 @@ which renames file named name1 to name2
 
 </details>
 
-<details><summary>Eg: </summary>
 ```
 $ ls
 
