@@ -106,11 +106,17 @@ It acts like sockscap / premeo / eborder driver ( intercepts TCP calls )
  .
  http://proxychains.sourceforge.net
 
+### Netcat
+  Netcat (often abbreviated as "nc") is a command-line networking utility in Linux and other operating systems that can be used for various network-related tasks, such as transferring files, port scanning, and debugging network connections. It is designed to be a simple and flexible tool that can work with both TCP and UDP protocols and can be used in a wide range of scenarios. Some of the common use cases of netcat include establishing a two-way data transfer between two computers, creating a simple chat server, and testing network services and firewalls. It is a powerful and versatile tool that can be used by system administrators, network engineers, and security professionals for various networking tasks.
+
+## **Nikto**
+  
 
 
+## **Tcpdump**
+tcpdump command in Linux is used to monitor traffic on a specific network interface
 
-
-
+## 
 
 
 

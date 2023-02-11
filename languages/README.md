@@ -1,7 +1,4 @@
 
-
-
-
 # Languages
 
 - [Bash](#bash)
@@ -9,11 +6,18 @@
 
 
 ## Bash
-
+### Basics
 - [Introduction](#introduction)
 - [Basic commands](#basic-commands)
 - [Paths](#paths)
--
+- 
+### **Programmming**
+ - [Hello World!]()
+ - [Read Inputs]()
+ - [Sum of Two numbers]()
+ - [Multiply Two Numbers]()
+ - [Increment a number]()
+ - 
 
 ### Pre-requests
 
@@ -370,6 +374,126 @@ IFS=$' \t\n'
 *Also `~` this symbol is linked to HOME variable/reference*
 
 ![~](./bash/images/echo%20~.png)
+
+
+## Programming in Bash
+An important thing to note is that you have make scrip files as  executable by using `chmod` by `chmod +x filename.sh` 
+
+### **Hello World!**
+
+*you can use either `echo` or `printf` to ptint a string*
+
+```
+$ echo "Hello World"
+Hello World!
+
+$ printf "Hello World!"
+Hello World!
+```
+commands used : `echo` `printf`
+
+###  **Reading Users Inputs**
+ We use read to read Users input
+
+read.sh
+``` 
+  echo "Enter your Name"
+  read name
+  echo "Hi $name"
+```
+
+
+```
+bash read.sh
+
+```
+
+![read](/images/read-programming.png)
+
+
+<details><summary>Explenation: </summary>
+
+`#!/bin/bash` is called the shebang which tells the computer to run the script using the bash shell.
+`echo` command is used to print
+`read` command is used to get user input
+</details>
+
+### Arithmatic Operations
+
+1. Sum of 2 Numbers
+
+```
+
+echo $((num1 + num2))
+
+```
+*You can either specify num1 and num2 or get it from user on any other programm*
+
+ie: 
+```
+$ num1=10
+$ num2=20
+$ echo $((num1 + num2))
+30
+
+```
+
+
+```
+#!/bin/bash
+echo "Enter the first Number"
+read number1
+echo "Enter the second Number"
+read number2
+echo "sum = " $((number1 + number2))
+
+```
+![sum of two numbers](/images/sumof2numbers.png)
+<!-------------------------------->
+
+2. Multiplication of Two numbers 
+
+
+### Increment a number
+
+consider we initialize `num` as 0 the we use `((num+=1))``
+
+```
+$ num=0
+$ echo $n
+0
+$ ((num+=1))
+$echo $n 
+1
+$ ((numbers+=1))
+$ echo $n
+2
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
