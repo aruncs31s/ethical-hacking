@@ -14,7 +14,7 @@
         - [tty]()
         - [Terminal]()
       - [Expert](#expert)
-    - [Git](Pre-Requests#git)
+    - [Git](Pre-Requests/#git)
       - [Introduction](Pre-Requests#git-introduction)
       - [Installition](Pre-Requests#git-installition)
       - [Working with Repos](Pre-Requests#working-with-repositories)
