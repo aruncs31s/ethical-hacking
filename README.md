@@ -15,12 +15,12 @@
         - [Terminal]()
       - [Expert](#expert)
     - [Git](#git)
-      - [Introduction](#git-introduction)
-      - [Installition](#git-installition)
-      - [Working with Repos](#working-with-repositories)
-    - [Github](#github)
-    - [Github-Readme.md](#github-readme)
-    - [Github-Fork](#github-fork)
+      - [Introduction](/Basics/#git-introduction)
+      - [Installition](/Basics/#git-installition)
+      - [Working with Repos](/Basics/#working-with-repositories)
+    - [Github](/Basics/#github)
+    - [Github-Readme.md](/Basics/#github-readme)
+    - [Github-Fork](/Basics/#github-fork)
 
 
 - [Basics](#basics)
