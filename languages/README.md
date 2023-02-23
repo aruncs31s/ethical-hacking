@@ -14,6 +14,7 @@
 ### **Programmming**
  - [Hello World!]()
  - [Variables](#variables)
+    - []
  - [Read Inputs]()
  - [Sum of Two numbers]()
  - [Multiply Two Numbers]()
@@ -210,7 +211,7 @@ _so we used `ls` to list all the files_
 *To understand this simply consider if we have to delete a file which we have downloaded from internet and we dont know it's name but it is in the folder `$HOME/Downloads` we can do this in many ways azbut one of the easyest way is to go into the folder and inspect the files and delete the one that we dont need suppose we want to delete song.mp3 form download ; we first need to go to the folder specified above so inorder to go to that folder we use `cd`(change directory) command*
 </details>
 
-#### Usage
+#### **Usage**
 
 ``` 
 cd /path/to/the/folder
@@ -240,7 +241,7 @@ linux file system*
 
 
 
-#### Usage
+#### **Usage**
 ```
 cp old_name new_name 
 ```
@@ -273,7 +274,7 @@ old_song.mp3
 ### **mv**
 **mv** is mainly used to move or renames files the 
 
-#### Uses
+#### **Uses**
 
 ```
 mv old_name new_name
@@ -281,7 +282,7 @@ mv old_name new_name
 ```
 
 
-##### Files
+##### **Files**
 ```
 mv old_name new_name
 ```
@@ -298,7 +299,7 @@ f
 ### **rm**
     `rm` is used to remove files or folders, 
 
-#### Usage
+#### **Usage**
 
 ```
 rm file_name
@@ -325,7 +326,7 @@ $
 
 
 
-## Paths
+## **Paths**
 
 *We can check the current Varriables that are beeing used by just typing system
 
@@ -377,10 +378,10 @@ IFS=$' \t\n'
 ![~](./bash/images/echo%20~.png)
 
 
-## Programming in Bash
+# Programming in Bash
 An important thing to note is that you have make scrip files as  executable by using `chmod` by `chmod +x filename.sh` 
 
-### **Hello World!**
+## **Hello World!**
 
 *you can use either `echo` or `printf` to ptint a string*
 
@@ -393,7 +394,94 @@ Hello World!
 ```
 commands used : `echo` `printf`
 
-###  **Reading Users Inputs**
+
+## **Variables**
+
+- [**Seting a variable**]()
+- [**unsetting a variable**]()
+- [**]
+
+  `variables` are used to store values that can be later used in that programm,
+
+<details><summary><b>Note&#160;&#160;:</b></summary>
+Varialbe can be also used in command line 
+</details>
+
+**Usage** 
+- **Direct assigning**
+```
+variablename=value
+```
+![](../images/variable1.png)
+
+- **Using `let`**
+```
+let variabename=value
+```
+![](../images/variable-let.png)
+
+*let command can not be used to assign `strings` to a variable*
+
+
+- **Using Linux environment Variables**
+
+```
+export variablename=value
+```
+
+![](../images/variable-export.png?raw=ture)
+
+
+
+***here we just assigned the value 30 to a variable named age*** ***and this variable can be later used in programms or in command line itself***
+![](../images/variable2.png)
+
+![](../images/variable3.png)
+
+<details><summary><b>Note&#160;&#160;</b></summary>
+
+*there is no space between the `=` sign and the variable name and also no space between name of the variale and the `=`+*
+
+![](../images/notvariable.png?raw=true)
+
+*we can see that is if we try to assign value to a variable with a space between variable name and the `=` sign or space between variable value and the `=`, it is producing errors*
+
+</details>
+
+
+<details><summary> <b>Note&#160;&#160;</b> </summary>
+
+
+
+
+**`unset`** is used to remove a variable**
+
+![](../images/unset-variable.png)
+
+</details>
+
+
+
+
+
+
+
+
+**Eg :**
+&#160;
+---
+&#160;
+
+&#160;
+
+
+
+
+
+
+
+
+##  **Reading Users Inputs**
  We use read to read Users input
 
 read.sh
@@ -419,7 +507,7 @@ bash read.sh
 `read` command is used to get user input
 </details>
 
-### Arithmatic Operations
+## Arithmatic Operations
 
 1. Sum of 2 Numbers
 
@@ -455,7 +543,7 @@ echo "sum = " $((number1 + number2))
 2. Multiplication of Two numbers 
 
 
-### Increment a number
+## Increment a number
 
 consider we initialize `num` as 0 the we use `((num+=1))``
 
@@ -471,17 +559,6 @@ $ echo $n
 2
 ```
 
-### Variables
-
-
-<details><summary></summary></details>
-
-&#160;
----
-&#160;
-
-&#160;
-
 ---
 
 
@@ -505,7 +582,7 @@ $ echo $n
 
 
 
-
+<!-- 
 
 
 
@@ -563,3 +640,4 @@ youtube-dl -f best <URL>
 youtube-dl -x --audio-format mp3 <URL>
 
 
+-->
