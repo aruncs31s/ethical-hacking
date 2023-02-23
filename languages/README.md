@@ -12,6 +12,9 @@
 - [Paths](#paths)
 - 
 ### **Programmming**
+ - [Introduction]()
+    - []()
+    -  
  - [Hello World!]()
  - [Variables](#variables)
     - []
@@ -19,7 +22,10 @@
  - [Sum of Two numbers]()
  - [Multiply Two Numbers]()
  - [Increment a number]()
- - 
+ - [if else](#if-else)
+ - [loops]()
+  - [for]()
+  - [while]()
 
 ### Pre-requests
 
@@ -463,10 +469,6 @@ export variablename=value
 
 
 
-
-
-
-
 **Eg :**
 &#160;
 ---
@@ -539,7 +541,7 @@ echo "sum = " $((number1 + number2))
 ```
 
 
-<img width="70%" src="../images/sumof2numbers.png" />
+<!-- <img width="70%" src="../images/sumof2numbers.png" />-->
 
 ![sum of two numbers](/images/sumof2numbers.png)
 <!-------------------------------->
@@ -561,6 +563,42 @@ $echo $n
 $ ((numbers+=1))
 $ echo $n
 2
+```
+## if else
+
+- [if]()
+- [if else]()
+
+### if
+
+**Usage :**
+```
+if condition 
+then
+
+  expression
+fi
+```
+<details><summary>Eg :</summary>
+
+
+
+
+</details>
+
+
+### if else 
+
+**Usage :**
+
+
+```
+if condition
+then
+  expression
+else  
+  expression
+fi
 ```
 
 ---
