@@ -537,6 +537,10 @@ read number2
 echo "sum = " $((number1 + number2))
 
 ```
+
+
+<img width="70%" src="../images/sumof2numbers.png" />
+
 ![sum of two numbers](/images/sumof2numbers.png)
 <!-------------------------------->
 
