@@ -13,6 +13,7 @@
 - 
 ### **Programmming**
  - [Hello World!]()
+ - [Variables](#variables)
  - [Read Inputs]()
  - [Sum of Two numbers]()
  - [Multiply Two Numbers]()
@@ -171,7 +172,7 @@ $ ls /bin
 
 _so we used `ls` to list all the files_
 
-<img src="https://github.com/aruncs31s/bash/blob/main/images/ls.png?raw=true">
+<img src="../images/ls.png">
 
 
 
@@ -470,6 +471,18 @@ $ echo $n
 2
 ```
 
+### Variables
+
+
+<details><summary></summary></details>
+
+&#160;
+---
+&#160;
+
+&#160;
+
+---
 
 
 
