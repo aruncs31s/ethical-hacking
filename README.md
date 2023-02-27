@@ -146,6 +146,8 @@ This sections's discus about all basic hacks [click here](https://github.com/aru
 
 **Aslam**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
 
+**gouthamdaas** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Gouthamdaas)
+
 ### Join us
 *you can join us and simply start learning together 
 for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
