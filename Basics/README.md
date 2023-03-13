@@ -1,5 +1,4 @@
 ## Basics
-
 - [Proxy Servers and Stay Anonymous](#proxy-servers-and-stay-anonymous)
 - [Vulnerability Scanning](#vulnerability-scanning)
 - [Phishing](#phishing)

@@ -1,15 +1,10 @@
-## Pre-Requests
+## **Pre-Requests**
 
 Inorder to Upload it `documentations` and `stuff` to Github you need to know the following things
 - [Linux](#linux)
-    - [Rookie](#rookie)
-        - [Introduction]()
-        - [Firing Up]()
-    - [Intermediate](#intermediate)
-        - [Introduction]()
-        - [tty]()
-        - [Terminal]()
-    - [Expert](#expert)
+  - [linux for Hackers](#linux-for-hackers)
+  - [Installition](#installition)
+
 - [Git](#git)
     - [Introduction](#git-introduction)
     - [Installition](#git-installition)
@@ -20,8 +15,41 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
 - [Github-Readme.md](#github-readme)
 - [Github-Fork](#github-fork)
 
-### Linux
-  Linux is easy and the same difficult to understand if you don't have enough technical knowledge . I have devided this tutorial for Rookie,Intermediate,Expert so that you can choose according to you level
+### **Linux**
+  Linux is a free and open source operating system that uses linux kernal and mainained by FOSS developers. Linux is easy and the same difficult to understand if you don't have enough technical knowledge, it is also to be noted that you will never learn linux unless u actually use it . It is just like windows and macos but it is free and open source so you dont have to pay anything to get it working on your machine . It can be installed on a hardware as small as your home router in fact linux is the lites among all other os's . 
+#### **Linux for Hackers**
+  Most of the time(aproximately all the time) a hacker will use Linux for their hacking purpose Hacking os to be exact . A Hacking os comes with pre installed tools for hacking and other usefull tools which helps them to make hacking ease . Some examples of such os are `Kali linux`([click here](https://www.kali.org/docs/) to know more) by offensive security , `Parrot os`( [Click here](https://www.parrotsec.org/) to know more) by [Some good developers](https://www.parrotsec.org/team/) and `Balck arch`
+
+#####  **Parrot os** 
+  ![Parrot os](/images/ParrotOS-4.6-plasma.jpg)<!-- source wikkipedia https://en.wikipedia.org/-->
+  Parrot os is a debian based linux distro specially for hackers and security specialists and can be also used for normal computing tasks like watching movies surfing the internet the good stuffs . Intrestingly enough they have the like special purpose versions for `Penetration Testing and Red Team operations` that is the ` Security edition` and <!-- by parrotsec --> `Home edition` for normal use so on 
+
+  ![paroot os](/images/parrot os versions.jpg)
+
+#### **Installition**
+  It is pretty easy to install linux on older hardware compared to newer once and there are plety of installers out there which comes with automated scripts to install linux and if you are very intrested in hard working you can also try to install a linux distro called `Arch linux` which is difficult to install but offers more control over what your installing
+  &#160;&#160;&#160;&#160;&#160;When its comes to installing linux you have to chose from overweling amount of distros which is the most complicated decition among these installing steps for example there is `Ubuntu` , `Manjaro` , `Mint` , `MX linux` the list will go on and on an  on, i will recomment `Linux Mint` or `Ubuntu` if your new to Linux but we are intrested in Hacking So we will choose either `kali linux` , `Paroot os` or `Black arch` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Linux File System
 
@@ -31,7 +59,6 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
 
   
 #### Linux for Rookies
-  
   
 ---
 
