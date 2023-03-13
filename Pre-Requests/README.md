@@ -24,7 +24,7 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
   ![Parrot os](/images/ParrotOS-4.6-plasma.jpg?raw=true)<!-- source wikkipedia https://en.wikipedia.org/-->
   Parrot os is a debian based linux distro specially for hackers and security specialists and can be also used for normal computing tasks like watching movies surfing the internet the good stuffs . Intrestingly enough they have the like special purpose versions for `Penetration Testing and Red Team operations` that is the ` Security edition` and <!-- by parrotsec --> `Home edition` for normal use so on 
 
-![paroot os](/images/parrot\ os\ versions.jpg?raw=true)
+![paroot\ os](/images/parrot\ os\ versions.jpg)
 
 #### **Installition**
   It is pretty easy to install linux on older hardware compared to newer once and there are plety of installers out there which comes with automated scripts to install linux and if you are very intrested in hard working you can also try to install a linux distro called `Arch linux` which is difficult to install but offers more control over what your installing
