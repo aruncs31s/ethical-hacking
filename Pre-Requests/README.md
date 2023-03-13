@@ -21,10 +21,10 @@ Inorder to Upload it `documentations` and `stuff` to Github you need to know the
   Most of the time(aproximately all the time) a hacker will use Linux for their hacking purpose Hacking os to be exact . A Hacking os comes with pre installed tools for hacking and other usefull tools which helps them to make hacking ease . Some examples of such os are `Kali linux`([click here](https://www.kali.org/docs/) to know more) by offensive security , `Parrot os`( [Click here](https://www.parrotsec.org/) to know more) by [Some good developers](https://www.parrotsec.org/team/) and `Balck arch`
 
 #####  **Parrot os** 
-  ![Parrot os](/images/ParrotOS-4.6-plasma.jpg)<!-- source wikkipedia https://en.wikipedia.org/-->
+  ![Parrot os](/images/ParrotOS-4.6-plasma.jpg?raw=true)<!-- source wikkipedia https://en.wikipedia.org/-->
   Parrot os is a debian based linux distro specially for hackers and security specialists and can be also used for normal computing tasks like watching movies surfing the internet the good stuffs . Intrestingly enough they have the like special purpose versions for `Penetration Testing and Red Team operations` that is the ` Security edition` and <!-- by parrotsec --> `Home edition` for normal use so on 
 
-  ![paroot os](/images/parrot os versions.jpg)
+![paroot os](/images/parrot\ os\ versions.jpg?raw=true)
 
 #### **Installition**
   It is pretty easy to install linux on older hardware compared to newer once and there are plety of installers out there which comes with automated scripts to install linux and if you are very intrested in hard working you can also try to install a linux distro called `Arch linux` which is difficult to install but offers more control over what your installing
