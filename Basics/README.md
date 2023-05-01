@@ -27,6 +27,43 @@ A proxy server is a system or router that provides a gateway between users and t
 **You can know more about tor and how to setup tor [here](../Anonymity#tor)**
 
 
+### **WordList**
+`WordLists` are combinations of characters  that are stored in a text file.WordLists are very important in hacking , more specificaly in cracking . Cracking a hash or bruteforce attack will require a large collection of words .The original password may or maynot be in that list.
+
+- Generating a wordlist
+There are several tools available to geneate wordlist or some distro like kali linux includes common wordlists like `rockyou.txt` , which contains most commonly used passwords like `12345678` or `password` . But in many cases the `rockyou.txt` will not contain the password we required so we have to know atleast how to create a password list
+
+#### **crunch**
+[](./images/crunch?raw=true)
+
+
+`crunch` is a wordlist generator that is alredy comes with kali linux or blackarch for that matter . The syntax or the command to generate the passord list (wordlist) is very simple and is as follows
+
+``` 
+crunch <min> <max> [options]
+```
+
+
+<details> 
+<summary>Explenation: <summary>
+- min : min indicates the minimum number or the length of the password or word
+- max : like min it indicates the maximum length of the password
+
+    for example 
+    ```
+    $ crunc 2 4 abc
+    ```
+the above command will generate words with minimum 2 characters from the provided character and the maximum length of the word will be 4
+- aa
+- ab
+- aabb
+- abb
+Like this
+
+<details>
+
+[](./images/crunch2.png)?raw=true
+
 
 
 
@@ -49,7 +86,7 @@ Scanners are used to scan the system and identify the vulnerability , we also us
 
 **Eg :**
 
-[`OpenVAS`](../Tools-Used/README.md#openvas) `
+[`OpenVAS`](../Tools-Used/README.md#openvas) 
 
 
 ### **Phishing**

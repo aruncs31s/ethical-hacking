@@ -24,8 +24,8 @@
 
 
 - [**Basics**](#basics)
-  - [Proxy Servers and Stay Anonymous](./Basics)
-  - [WordLis]()
+  - [Proxy Servers and Stay Anonymous](./Basics/README.md#proxy-servers-and-stay-anonymous)
+  - [WordLis](./Basics/README.md#wordlist)
 - [**languages**](#languages)
   - [Bash](./languages/README.md#introduction-to-bash)
   - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
