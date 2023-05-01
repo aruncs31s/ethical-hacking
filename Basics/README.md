@@ -62,7 +62,7 @@ Like this
 
 <details>
 
-![](./images/crunch2.png)?raw=true
+![](./images/crunch2.png?raw=true)
 
 
 
