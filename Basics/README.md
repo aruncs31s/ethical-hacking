@@ -6,7 +6,7 @@
 - [Denial of service (DoS) ](#denial-of-service)
 - [Man-in-the-middle ](#mitm)
 - [SQL injection ](sql-injection)
-- 
+-  
 ### Proxy Servers and Stay Anonymous
 <br>
 <p align="justify"> 
@@ -19,19 +19,16 @@ A proxy server is a system or router that provides a gateway between users and t
 
 #### Used for 
 1. *Keep the system behind the curtain (mainly for security resons)*
-2. *Speed up the acces to a resource (through "cqching")*
-3. *Speacialized proxy servers are used to filter unwanted content such as advertisements.*
-4. *Proxy servers can be used as IP address multiplexer to enable to connect number of computers on the internet, whatever only has one IP address*
+2. *Speed up the acces to a resource (through "cqching")* 3. *Speacialized proxy servers are used to filter unwanted content such as advertisements.* 4. *Proxy servers can be used as IP address multiplexer to enable to connect number of computers on the internet, whatever only has one IP address*
 
 *Get proxy servers [here](https://spys.one/en/)*
 
 
-#### Setup using Tor
-
-##### Pre-Requests
+**You can know more about tor and how to setup tor [here](../Anonymity#tor)**
 
 
-[`tor`](#tor)    [`proxychains*`](#proxychains) 
+
+
 
 
 

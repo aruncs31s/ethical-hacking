@@ -25,27 +25,27 @@
 
 - On debian based
 ```
-sudo apt-get install torctl
+$ sudo apt-get install torctl
 or
-sudo aptitude install torctl
+$ sudo aptitude install torctl
 ```
 - On arch based 
 
 ```
-yay -S torctl
+$ yay -S torctl
 or
-sudo pacman -S torctl
+$ sudo pacman -S torctl
 ```
 *torctl is not defautly available in the repo in some operating systems* *However you can Install it by adding kali's repo in debian based and blackarch on arch based*
 
 
 - To start the redirection
 ```
-sudo torctl start
+$ sudo torctl start
 ```
 - To stop the redirection
 ```
-sudo torctl stop
+$ sudo torctl stop
 ```
 
 > Other usefull commands
@@ -64,4 +64,34 @@ sudo torctl stop
 |rvmac       | revert mac addresses of all interfaces|
 |version     | print version of torctl and exit|
 *source torctl --help*
+
+### Setting Up Tor
+
+- Installition
+
+```
+
+$ sudo apt install tor proxychains-ng # for Debian
+
+$ sudo pacman -S tor proxychains-ng # for arch linux
+```
+
+- Editing Config
+
+``` 
+$ sudo nano /etc/proxychains.conf
+
+```
+
+- after opening the config file uncomment `dynamic chain` and comment `strict chain`
+*you can uncomment a string by removing the hash(pound) string*   
+
+- then start the tor service by
+
+```
+$ sudo systemctl start tor
+```
+
+
+
 

@@ -3,8 +3,8 @@
 
 # **Ethical-hacking**
 
-- [Introduction](#introduction)
-- [Pre-Requests](#pre-requests)
+- [**Introduction**](#introduction)
+- [**Pre-Requests**](#pre-requests)
     - [Linux](/Pre-Requests/README.md#linux)
       - [Rookie](./Pre-Requests#rookie)
         - [Introduction]()
@@ -23,10 +23,11 @@
     - [Github-Fork](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#github-fork)
 
 
-- [Basics](#basics)
-  - [Proxy Servers and Stay Anonymous]()
-- [languages](#languages)
-  - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#bash)
+- [**Basics**](#basics)
+  - [Proxy Servers and Stay Anonymous](./Basics)
+  - [WordLis]()
+- [**languages**](#languages)
+  - [Bash](./languages/README.md#introduction-to-bash)
   - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
   - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c)
   - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
