@@ -34,7 +34,7 @@ A proxy server is a system or router that provides a gateway between users and t
 There are several tools available to geneate wordlist or some distro like kali linux includes common wordlists like `rockyou.txt` , which contains most commonly used passwords like `12345678` or `password` . But in many cases the `rockyou.txt` will not contain the password we required so we have to know atleast how to create a password list
 
 #### **crunch**
-[](./images/crunch?raw=true)
+![](./images/crunch?raw=true)
 
 
 `crunch` is a wordlist generator that is alredy comes with kali linux or blackarch for that matter . The syntax or the command to generate the passord list (wordlist) is very simple and is as follows
@@ -62,7 +62,7 @@ Like this
 
 <details>
 
-[](./images/crunch2.png)?raw=true
+![](./images/crunch2.png)?raw=true
 
 
 
