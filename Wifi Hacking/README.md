@@ -2,7 +2,7 @@
 
 # **Wifi Hacking**
 1. [Using Wifite](using-wifite)
-2. [Using Aircrack-ng](using-Aircrack-ng)
+2. [Using Aircrack-ng](using-aircrack-ng)
 
 
 
