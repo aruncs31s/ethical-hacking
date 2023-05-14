@@ -1,7 +1,7 @@
 ***Before Doing This You should checkout /Basics%wireless***
 
 # **Wifi Hacking**
-1. [Using Wifite](using-wifite)
+1. [Using Wifite](using-wifiteeasyest)
 2. [Using Aircrack-ng](using-aircrack-ng)
 
 
