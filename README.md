@@ -70,7 +70,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 This sections's discus about all basic hacks [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
 
 ### **1. Proxy Servers and Stay Anonymous**
-Staying anonymous is an importent thing in hacking as well as in surfing the internet. In the dark side of things the main advantage of staying anonymous is that you won't get caught. This section is highly recomented before anything else. and more about this [click here](./Basics/README.md%proxy-servers-and-stay-anonymous)
+Staying anonymous is an importent thing in hacking as well as in surfing the internet. In the dark side of things the main advantage of staying anonymous is that you won't get caught. This section is highly recomented before anything else. and more about this [click here](./Basics#proxy-servers-and-stay-anonymous)
 
 
 
