@@ -1,7 +1,7 @@
 ## Under construction
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)   [![fork](https://img.shields.io/github/forks/aruncs31s/ethical-hacking?color=green)](https://github.com/aruncs31s/ethical-hacking/network/members) [![status](https://img.shields.io/badge/status-building-red)](https://github.com/aruncs31s/ethical-hacking/commits?author=aruncs31s) [![commits](https://img.shields.io/github/commit-activity/m/aruncs31s/ethical-hacking?label=commits)](https://github.com/aruncs31s/ethical-hacking/commits?author=aruncs31s) [![contributers](https://img.shields.io/github/contributors/aruncs31s/ethical-hacking?color=%23ff0000&style=plastic)](https://github.com/aruncs31s/ethical-hacking/graphs/contributors)
 
-# Ethical-hacking
+# **Ethical-hacking**
 
 - [Introduction](#introduction)
 - [Pre-Requests](#pre-requests)
@@ -63,11 +63,18 @@ hacking or linux skill or anyone willing to learn hacking are wellcome here
 
 for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Introduction)
 
-## Basics 
-- [Proxy Servers and Stay Anonymous](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#proxy-servers-and-stay-anonymous)
-- [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
+## **Basics**
+1. [**Proxy Servers and Stay Anonymous**](1.-proxy-servers-and-stay-anonymous)
+2. [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
 
 This sections's discus about all basic hacks [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
+
+### **1. Proxy Servers and Stay Anonymous**
+Staying anonymous is an importent thing in hacking as well as in surfing the internet. In the dark side of things the main advantage of staying anonymous is that you won't get caught. This section is highly recomented before anything else. and more about this [click here](./Basics/README.md%proxy-servers-and-stay-anonymous)
+
+
+
+---
 
 ## Languages
 - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
