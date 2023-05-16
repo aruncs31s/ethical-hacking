@@ -5,7 +5,7 @@
 
 - [Introduction](#introduction)
 - [Pre-Requests](#pre-requests)
-    - [Linux](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#linux)
+    - [Linux](/Pre-Requests/README.md#linux)
       - [Rookie](./Pre-Requests#rookie)
         - [Introduction]()
         - [Firing Up]()

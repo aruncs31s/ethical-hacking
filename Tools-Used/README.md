@@ -21,7 +21,7 @@ It acts like sockscap / premeo / eborder driver ( intercepts TCP calls )  |
 
 
 
-### Metasploit
+### **Metasploit**
 <!-- source = Wikipedia--> 
 <p align=justify>
     The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7
@@ -45,13 +45,30 @@ chmod +x ./metasploit-latest-linux-x64-installer.run
 ./metasploit-latest-linux-x64-installer.run
 
 ```
+
+### **Android-Termux**
+
+
+```
+apt update
+
+apt install unstable-repo
+
+apt install metasploit-framework
+
+```
+
+
+
+
+
 for more details check [here](https://adamtheautomator.com/install-metasploit-on-ubuntu/)
 
 [official Website](https://www.metasploit.com)
 
 [official Repository](https://github.com/rapid7/metasploit-framework)
 
-### tor
+### **tor**
 <!--source apt show tor -->
 
 **Source = apt show tor**

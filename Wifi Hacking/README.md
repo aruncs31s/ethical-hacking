@@ -40,7 +40,7 @@ aircrack-ng ip iw
 
 #### Steps
 
-1. **Get the `bssid` of the target : there are multiple methods to obtain bssid and channel** 
+1. **Get the `bssid`(MAC address) of the target : there are multiple methods to obtain bssid and channel** 
 
 ##### **Method 1 Using iwlist**
 
