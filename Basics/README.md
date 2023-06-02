@@ -1,5 +1,6 @@
 ## Basics
 - [Proxy Servers and Stay Anonymous](#proxy-servers-and-stay-anonymous)
+- [3 Way Handshake (TCP)](3-way-handshake)
 - [Vulnerability Scanning](#vulnerability-scanning)
 - [Phishing](#phishing)
 - [Malware]()
@@ -25,6 +26,11 @@ A proxy server is a system or router that provides a gateway between users and t
 
 
 **You can know more about tor and how to setup tor [here](../Anonymity#tor)**
+
+### **3 Way Handshake**
+
+[3 way handshake](/Basics/images/TCP-three-way-handshake.png?raw=true)
+
 
 
 ### **WordList**
