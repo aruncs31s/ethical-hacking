@@ -23,6 +23,8 @@
     - [Github-Fork](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#github-fork)
 
 
+- [**Setting Up Hacking Environment**](#setting-up-hacking-environment)
+
 - [**Basics**](#basics)
   - [Proxy Servers and Stay Anonymous](./Basics/README.md#proxy-servers-and-stay-anonymous)
   - [WordLis](./Basics/README.md#wordlist)
@@ -63,6 +65,21 @@ hacking or linux skill or anyone willing to learn hacking are wellcome here
 </p>
 
 for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Introduction)
+
+## **Setting Up hacking Environment**
+- [Introduction](#introduction)
+- [Hacking OS](#hacking-os)
+
+### **introduction**
+    A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
+    In this section We will setup a hacking os and explore some premaid one's like kali and parrot 
+
+### **Hacking OS**
+   Hacking os is a premaid OS which shipps with hacking tools pre-installed , which saves time but increases system's size
+
+[More about Setting up hacking environment](./Environment.md)
+
+
 
 ## **Basics**
 1. [**Proxy Servers and Stay Anonymous**](1.-proxy-servers-and-stay-anonymous)
