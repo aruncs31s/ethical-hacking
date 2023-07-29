@@ -19,10 +19,12 @@ Hacking os is a premaid OS which shipps with hacking tools pre-installed , which
 - [Booting]()
 - [Connecting to Internet]()
 - [Setting clock]()
-- [Partitioning Disks]
+- [Partitioning Disks]()
+    - [UEFI](#uefi)
+    - [BIOS](#bios)
 - [Formating Drives]()
 - [Mounting Drives]()
-- [Install]
+- [Install packages to new root]()
 
 ### **Introduction**
 Arch Linux simple and lightweight operating system . I choose Arch linux insted of Debian because  in arch linux you'll get the latest tools and packages and it only take as little as `77 MB` after installing
@@ -44,7 +46,7 @@ Arch Linux simple and lightweight operating system . I choose Arch linux insted 
 - [For linux](#linux)
 
 ```
-dd if=/path/to/archlinux.iso of=/dev/sdx status=progress bs=4M
+$ dd if=/path/to/archlinux.iso of=/dev/sdx status=progress bs=4M
 ```
 
 ### **Booting**
@@ -109,7 +111,196 @@ nvme0n1     259:0    0 223.6G  0 disk
 └─nvme0n1p7 259:7    0  75.2G  0 part
 
 ```
+- UEFI
 
 ![lsblk](./images/lsblk-arch.png?raw=true)
 ![df](./images/df-arch.png?raw=ture)
+
+
+You can see that i have mounted `/boot/eft` in `nvme0n1p1` and `/` in `nvme0n1p2` and `swap` in `nvme0n1p3` . I have `/boot/efi` insted of `/boot` because i have a uefi system but the procedures are almost same and uefi does not require this much space as 1GB but i have given it anyways. you can see that in second screenshot
+```
+/dev/nvme0n1p1   1022976    10252   1012724   2% /boot/efi
+```
+where `/boot/efi` is only using `2%` from its alocated size `1GB`
+
+- BIOS
+
+![lsblk-bios](./images/lsblk-bios.png?raw=true)
+
+this screenshot shows a pation scheme of a bios 
+
+
+
+### **Formating Disks**
+we use [`mkfs`](./Dictionary/README.md#mkfs) for Formating the Drives
+
+imagine `/dev/sda1` is your `/boot` partition and `/dev/sda2` is your `root` or `/` partition then 
+
+- for BIOS
+
+```
+$ mkfs.ext4 /dev/sda1 -L ARCHBOOT
+$ mkfs.ext4 /dev/sda2 -L ARCHROOT
+
+```
+
+- for UEFI
+consider `/dev/sda1` as your uefi partition
+
+```
+$ mkfs.fat -F 32 /dev/sda1 -n ARCHUEFI
+$ mkfs.ext4 /dev/sda2 -L ARCHROOT
+```
+*here `-n` and `-L` are used to set labels for the partition*
+
+
+
+*you can setup swap partition later*
+
+### Mounting Drives
+
+- BIOS
+
+```
+$ mount /dev/sda2 /mnt
+
+$ mkdir /mnt/boot
+
+$ mount /dev/sda1 /mnt/boot
+```
+
+- UEFI
+
+```
+$ mount /dev/sda2 /mnt
+
+$ mkdir -p /mnt/boot/efi
+
+$ mount /dev/sda1 /mnt/boot/efi
+
+
+```
+
+### **Install packages to new root*
+
+```
+$ pacstrap -K /mnt linux linux-firmware base vim nano networkmanager
+
+```
+
+- You can install some of your fav apps and your preffered editor now 
+- It is recomended that you install [`networkmanager`](./Dictionary/README.md#networkmanager) 
+
+### **Generating fstab**
+
+```
+$ genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+### **Some more mandatory setups**
+**This step include**
+- Setting Up Time Zone.
+- Generate Hardware Clock Settings.
+- Set Up Language Settings(Locale)
+- setting passwd for the root user
+- Installing GRUB bootloader
+
+
+- [`chroot`](./Dictionary/README.md#chroot) into new root
+
+```
+$ arch-chroot /mnt
+```
+- Create a soft link to your set-timezone
+
+```
+$ ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+
+
+```
+- Language setup
+```
+$ echo en_US.UTF-8 UTF-8 >> /etc/locale.gen
+
+$ locale-gen
+
+```
+
+- Setting hostname
+
+```
+$ echo archLinux > /etc/hostname
+```
+
+- **setting Root user password**
+
+```
+$ passwd
+```
+*Note* : password will not show when you are typing 
+
+**!if you skip this step you will not be able to login to your system after reboot**
+
+- adding hosts
+
+add this in your `/etc/hosts`
+
+```
+$ nano /etc/hosts
+```
+
+- type the following 
+```
+127.0.0.1 localhost
+::        localhost
+
+```
+
+- after typing 
+- Press `CTRL O` and press enter
+- Press `CTRL X` to exit
+
+
+### Installing The GRUB bootloader
+
+```
+$ pacman -S grub os-prober
+
+```
+- for BIOS
+```
+$ grub-install /dev/sda1 
+$ grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+- for UEFI
+
+```
+$ grub-install --target=x86_64-efi --bootloader-id=grub --efi-directory=/boot/efi
+
+$ grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+- now press `CTRL d`
+
+
+-  now remove the usb and reboot your system 
+
+```
+$ reboot
+
+```
+
+### **Essentials**
+after rebooting
+
+username will be = root
+
+Enable the NetworkManager
+```
+systemctl enable NetworkManager
+systemctl start NetworkManager
+
+```
+and use `nmtui` to connect to networks
 

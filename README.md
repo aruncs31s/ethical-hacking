@@ -71,7 +71,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 - [Hacking OS](#hacking-os)
 
 ### **introduction**
-    A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
+A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
     In this section We will setup a hacking os and explore some premaid one's like kali and parrot 
 
 ### **Hacking OS**
