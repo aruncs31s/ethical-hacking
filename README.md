@@ -77,7 +77,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 ### **Hacking OS**
    Hacking os is a premaid OS which shipps with hacking tools pre-installed , which saves time but increases system's size
 
-[More about Setting up hacking environment](./Environment.md)
+[More about Setting up hacking environment](/Environment.md)
 
 
 
