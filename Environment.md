@@ -125,9 +125,9 @@ where `/boot/efi` is only using `2%` from its alocated size `1GB`
 
 - BIOS
 
-![lsblk-bios](./images/lsblk-bios.png?raw=true)
+![lsblk-bios](./images/lsblk-df-bios.png?raw=true)
 
-this screenshot shows a pation scheme of a bios 
+this screenshot shows a pation scheme of a bios in th is we can see that `/boot` have used 23% from the alocated size with only 2 kernals installed and the mounting poin is `/` snd `/boot` insted `/boot/efi` 
 
 
 
