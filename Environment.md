@@ -2,6 +2,8 @@
 - [Introduction](#introduction)
 - [Hacking OS](#hacking-os)
 - [Installing ArchLinux](#installing-archlinu)
+- [Setting up Black Arch](#setting-up-black-arch)
+
 ### **introduction**
 A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
     In this section We will setup a hacking os and explore some premaid one's like kali and parrot 
@@ -304,3 +306,27 @@ systemctl start NetworkManager
 ```
 and use `nmtui` to connect to networks
 
+
+
+## **Setting Up Black Arch**
+Black arch is is an arch based penetration testing operating system which has over 2800 tools
+![Blackarch](./images/blackarch_fluxbox.jpg?raw=true)
+
+click [here](https://blackarch.org/) to know more
+### Installing
+
+```
+$ sudo sh $(curl -fsSL https://blackarch.org/strap.sh)
+
+```
+
+- To install balckarch tools
+```
+$ sudo pacman -S blackarch-<category>
+
+
+```
+- To see all blackarh categories
+```
+$ sudo pacman -Sg | grep blackarch
+```
