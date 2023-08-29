@@ -3,6 +3,7 @@
 - [Hacking OS](#hacking-os)
 - [Installing ArchLinux](#installing-archlinu)
 - [Setting up Black Arch](#setting-up-black-arch)
+- [Adding a restricted user](#adding-a-restricted-user)
 
 ### **introduction**
 A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
@@ -13,7 +14,8 @@ Hacking os is a premaid OS which shipps with hacking tools pre-installed , which
 
 
 ## **Installing ArchLinux**
-[*Official Guide](https://wiki.archlinux.org/title/installation_guide)
+[*Officia
+l Guide](https://wiki.archlinux.org/title/installation_guide)
 
 - [Introduction](#introduction)
 - [Downloading ISO]()
@@ -330,3 +332,29 @@ $ sudo pacman -S blackarch-<category>
 ```
 $ sudo pacman -Sg | grep blackarch
 ```
+
+## **Adding a restricted user**
+It is not neccessary to add a restricted user but in some case or in my opinion it is good to isolate the user from accessing others files and obtaining `root` access etc.
+- It isolates the restricted user from others
+- Good if your using the same Operating System for personal use
+
+### **Setps to create a new restricted user**
+- Create a new user
+```
+$ userdd -m <newuser> -s /bin/rbash
+```
+*rbash or restricted bash is used restrict the shell of new user*
+
+- set password for new user
+```
+$ passwd <newuser>
+```
+- add new user to sudo group
+```
+sudo usermod -aG sudo <newuser>
+
+```
+*you can also create a new group other than sudo to limit even further more details will be posted later*
+
+
+
