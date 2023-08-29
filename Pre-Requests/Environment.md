@@ -8,15 +8,14 @@
 
 ### **introduction**
 A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
-    In this section We will setup a hacking os and explore some premaid one's like kali and parrot 
+*In this section We will setup a hacking os and explore some pre-maid one's like kali and parrot os* *You are free to use any other hacking os like parrot os kali but "i" preffer to use arch/black arch for hacking*
 
 ### **Hacking OS**
 Hacking os is a premaid OS which shipps with hacking tools pre-installed , which saves time but increases system's size . So in this section we will be installing archlinux and setup blackarch
 
 
 ## **Installing ArchLinux**
-[*Officia
-l Guide](https://wiki.archlinux.org/title/installation_guide)
+[*Official Guide](https://wiki.archlinux.org/title/installation_guide)
 
 - [Introduction](#introduction)
 - [Downloading ISO]()
@@ -32,9 +31,9 @@ l Guide](https://wiki.archlinux.org/title/installation_guide)
 - [Install packages to new root]()
 
 ### **Introduction**
-Arch Linux simple and lightweight operating system . I choose Arch linux insted of Debian because  in arch linux you'll get the latest tools and packages and it only take as little as `77 MB` after installing
+Arch Linux simple and lightweight operating system . I choose Arch linux insted of Debian because  in arch linux you'll get the latest tools and packages and it only take as little as `77 MB` after installing.
 
-**Note** : free up some space to install linux and make a 1000 mb and 40 bg partition with any file system for `boot` and 'root'
+**Note** : free up some space to install linux and make a 1000 MB and 40 GB partition with any file system for `boot` and 'root'
 
 
 ### **Downloading ISO**
@@ -312,7 +311,7 @@ and use `nmtui` to connect to networks
 
 
 ## **Setting Up Black Arch**
-Black arch is is an arch based penetration testing operating system which has over 2800 tools
+Black arch is is an arch based penetration testing operating system which has over 2800 tools.I am assuming that you have installed the arch linux on your pc/laptop/... or you have alredy have it on your system.  Now we have to install blackarch into your arch linux installition which makes installing tools easy 
 ![Blackarch](./images/blackarch_fluxbox.jpg?raw=true)
 
 click [here](https://blackarch.org/) to know more
