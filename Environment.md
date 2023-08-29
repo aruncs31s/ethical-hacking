@@ -382,5 +382,6 @@ $ groupadd <groupname>
 $ sudo visudo 
 ```
 and you will see the following window
-![visudo](./images/sudo\ visudo.png?raw=true)
+
+![visudo](./images/sudo-visudo.png?raw=true)
 
