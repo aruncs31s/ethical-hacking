@@ -335,6 +335,7 @@ $ sudo pacman -Sg | grep blackarch
 ```
 
 ## **Adding a restricted user**
+*replace all <username> with desired name*
 It is not neccessary to add a restricted user but in some case or in my opinion it is good to isolate the user from accessing others files and obtaining `root` access etc.
 - It isolates the restricted user from others
 - Good if your using the same Operating System for personal use
@@ -362,6 +363,7 @@ sudo usermod -aG sudo <newuser>
 Creating a restricted group also helps in isolating the user for example consider if you use `sudo` group or `wheel` group for hacking and they both can access `sudo` seamlessly like consider if you have a script that you downloaded from github or some place and you wont be able to execute it with super user permission if your using `restricted user` and we can control which program should get to run with `root` permission using `custom group` 
 
 ### **Setting up a restricted user**
+*replace all <groupname> with desired name*
 - Add a new group
 ```
 $ groupadd <groupname>
@@ -385,3 +387,8 @@ and you will see the following window
 
 ![visudo](./images/sudo-visudo.png?raw=true)
 
+- add the following lines to restrict group/users within the group
+```
+%<groupname> ALL=(ALL:ALL) /usr/bin/nmap, /usr/bin/aircrack-ng
+```
+*you can add more programs ass above and dont forgot to put `,` `comma`
