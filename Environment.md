@@ -4,6 +4,7 @@
 - [Installing ArchLinux](#installing-archlinu)
 - [Setting up Black Arch](#setting-up-black-arch)
 - [Adding a restricted user](#adding-a-restricted-user)
+- [Creating a restricted group](#creating-a-restricted-group)
 
 ### **introduction**
 A hacking environment is essential for to do hacking .In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
@@ -357,4 +358,29 @@ sudo usermod -aG sudo <newuser>
 *you can also create a new group other than sudo to limit even further more details will be posted later*
 
 
+## **Creating a restricted group**
+Creating a restricted group also helps in isolating the user for example consider if you use `sudo` group or `wheel` group for hacking and they both can access `sudo` seamlessly like consider if you have a script that you downloaded from github or some place and you wont be able to execute it with super user permission if your using `restricted user` and we can control which program should get to run with `root` permission using `custom group` 
+
+### **Setting up a restricted user**
+- Add a new group
+```
+$ groupadd <groupname>
+```
+- Adding users to group
+    - Adding existing user
+    ```
+    $ usermod -aG <groupname> <username>
+    ```
+    - Creating a new user with this group
+    ```
+    $ useradd -G <groupname> -m -s /bin/rbash
+    ```
+- Editing `/etc/sudoers` file to restrict sudo access
+
+
+```
+$ sudo visudo 
+```
+and you will see the following window
+![visudo](./images/sudo\ visudo.png?raw=true)
 
