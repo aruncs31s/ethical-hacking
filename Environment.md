@@ -358,6 +358,9 @@ sudo usermod -aG sudo <newuser>
 ```
 *you can also create a new group other than sudo to limit even further more details will be posted later*
 
+![rbash](./images/rbash.png)
+*You can see that the user is restricted to use certain commands*
+
 
 ## **Creating a restricted group**
 Creating a restricted group also helps in isolating the user for example consider if you use `sudo` group or `wheel` group for hacking and they both can access `sudo` seamlessly like consider if you have a script that you downloaded from github or some place and you wont be able to execute it with super user permission if your using `restricted user` and we can control which program should get to run with `root` permission using `custom group` 
