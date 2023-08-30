@@ -5,26 +5,7 @@
 
 - [**Introduction**](#introduction)
 
-- [**Pre-Requests**](#pre-requests)
-
-    - [Linux](/Pre-Requests/README.md#linux)
-      - [Rookie](./Pre-Requests#rookie)
-        - [Introduction]()
-        - [Firing Up]()
-      * [Intermediate]()
-        - [Introduction]()
-        - [tty]()
-        - [Terminal]()
-      - [Expert](#expert)
-    - [Git](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#git)
-      - [Introduction](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#git-introduction)
-      - [Installition](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#git-installition)
-      - [Working with Repos](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#working-with-repositories)
-    - [Github](/Pre-Requests#github)
-    - [Github-Readme.md](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#github-readme)
-    - [Github-Fork](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests#github-fork)
-
-
+- [**Prerequisites**](#prerequisites)
 - [**Setting Up Hacking Environment**](#setting-up-hacking-environment)
 
 - [**Basics**](#basics)
@@ -37,7 +18,6 @@
   - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
   - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html)
 
-- [Reconnaissance](#reconnaissance)
 
 
 - [Hacks](#hacks)
@@ -71,6 +51,48 @@ hacking or linux skill or anyone willing to learn hacking are wellcome here
 </p>
 
 for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Introduction)
+
+
+<h2 align="center" id="prerequisites"> <b> Prerequisites</b></h2>
+
+<p align="justify"> followings are required to function effectively on this project and essential in bocoming an ethical hacker . You can skip this if you already know this or You can all this later</p>
+
+- [Linux]()
+- [Git]() (optional)
+
+### **Linux**
+Linux is a must have skill for any hacker or it professionals because you'll encounter it everywhere and you'll be doing all the hacks from a linux operating system like `kali` , `parrot` or `exodia`
+
+### **Git**
+
+
+
+
+<!-- - [Linux](./Pre-Requests#linux) -->
+<!--     - [Rookie](./Pre-Requests#rookie) -->
+<!--         - [Introduction]() -->
+<!--         - [Firing Up]() -->
+<!--     - [Intermediate](#intermediate) -->
+<!--         - [Introduction]() -->
+<!--         - [tty]() -->
+<!--         - [Terminal]() -->
+<!--     - [Expert](#expert) -->
+<!-- - [Git](#git) -->
+<!--     - [Introduction](#git-introduction) -->
+<!--     - [Installition](#git-installition) -->
+<!--     - [Working with Repos](#working-with-repositories) -->
+<!--     -  -->
+<!-- - [Github](#github) -->
+<!-- - [Github-Readme.md](#github-readme) -->
+<!-- - [Github-Fork](#github-fork) -->
+<!---->
+<!---->
+[click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests)
+
+
+
+
+
 
 ---
 
@@ -116,8 +138,10 @@ Learn more about `Creating a restricted group` [here](./Pre-Requests/Environment
 [More about Setting up hacking environment](/Pre-Requests/Environment.md)
 
 ---
+<h2 align="center" id="Basics"> <b> Basics</b></h2>
 
-## **Basics**
+- [Reconnaissance](#reconnaissance)
+
 1. [**Proxy Servers and Stay Anonymous**](1.-proxy-servers-and-stay-anonymous)
 2. [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
 
@@ -129,43 +153,22 @@ Staying anonymous is an importent thing in hacking as well as in surfing the int
 
 
 ---
+<h2 align="center" id="languages"> <b> Languages</b></h2>
 
-## Languages
 - [Bash](https://github.com/aruncs31s/ethical-hacking/tree/main/languages)
-
-## Pre-Requests
-  <p align="justify"> followings are required to function effectively on this project and essential in bocoming an ethical hacker</p>
-
-- [Linux](./Pre-Requests#linux)
-    - [Rookie](./Pre-Requests#rookie)
-        - [Introduction]()
-        - [Firing Up]()
-    - [Intermediate](#intermediate)
-        - [Introduction]()
-        - [tty]()
-        - [Terminal]()
-    - [Expert](#expert)
-- [Git](#git)
-    - [Introduction](#git-introduction)
-    - [Installition](#git-installition)
-    - [Working with Repos](#working-with-repositories)
-    - 
-- [Github](#github)
-- [Github-Readme.md](#github-readme)
-- [Github-Fork](#github-fork)
-
-
-[click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Pre-Requests)
-
 
 
 ## Reconnaissance
 
 [Click here]()
 
+<h2 align="center" id="cryptography"> <b> Cryptography</b></h2>
 
+<p align="justify"><i>Cryptography</i> itself is a very huge topic and it will not fit in this simple markdown page and i dont have the time to explain it. So i will surf throught the surface and only point out the important stuffs .So in simple words cryptography is a tool used to make a data secure by coverting it into some format to make the information/data secure.</p>
 
-## Hacks
+Learn more about cryptography [here](./Basics/Crypto/Cryptography.md)
+<h2 align="center" id="hacks"> <b> Hacks</b></h2>
+
 - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
 
 - [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
@@ -174,27 +177,27 @@ Staying anonymous is an importent thing in hacking as well as in surfing the int
 
 
 
+<h2 align="center" id="scripts"> <b> Scripts</b></h2>
 
-## Scripts 
 *Followings are scripts made for this project*
 
 - [payload-generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
 - [Neovim theme installer](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
 - [Ransomeware](https://github.com/sonyt86/programming/blob/main/python/ransomware.py)
-## Exploits 
+
+<h2 align="center" id="exploits"> <b> Exploits</b></h2>
 
 - [CVE-2022-0847-exploit](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c)
 - [CVE-2022-0847-exploit 2](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c2)
 
-## Tools-Used
- 
+ <h2 align="center" id="tools-used"> <b> Tools Used</b></h2>
 [`Metasploit`](./Tools-used#metasploit)  `gcc`  `Nikto` `nmap` 
 
 ## Contact
 
 [Telegram](https://t.me/+mqL4fZrUtEw0MjJl)
 
-## Team Members
+<h2 align="center" id="team-members"> <b> Team members</b></h2>
 
 **Arun CS** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/aruncs31s/)  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/telegram-logo-944.png?raw=true" width="16">](https://t.me/killadinjan)
 
@@ -219,13 +222,14 @@ Staying anonymous is an importent thing in hacking as well as in surfing the int
 
 **gouthamdaas** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Gouthamdaas)
 
-[**Anuranch C**](https://github.com/anuranch)[<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/anuranch)
+[**Anuranch C**](https://github.com/anuranch) [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/anuranch)
 
 ### Join us
 *you can join us and simply start learning together 
 for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
 
-### References
+ References
+ 
 - ANTI-HACKER TOOL KIT Fourth Edition by Mike Shema
 - YOUR UNIX THE ULTIMATE GUIDE by Sumitabha Das
 - CYBER SECURITY Understanding Cyber Crimes,Computer Forensics and Legal Perspectives by Nina Godbole , Sunit Belapure

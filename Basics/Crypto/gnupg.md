@@ -96,6 +96,9 @@ Encrypting a file is very simple after a keypair is been created. In this chapte
 
 you can see that i have a file named `found.me` and it contains `just a text file` . just a plain text so we'll now try to encrypt using gpg and our newly created `public key`
 
+
+### **Steps**
+
 - List the keys
 
 ```
@@ -103,7 +106,6 @@ $ gpg --list-keys
 
 ```
 - you'll get something similar to following
-
 
 ```
 /root/.gnupg/pubring.kbx
@@ -114,6 +116,8 @@ uid           [ultimate] Hacker <hacker@email.com>
 sub   rsa4096 2023-08-30 [E]
 
 ```
+
+
 - you can either use `uid` or the long text `D3034E4791F8142079F0A5DEB3B7ACA36C02064C` to use as recipient or sometimes u can just provide the `Real name` itself, in this case `Hacker`
 
 ```
@@ -139,8 +143,25 @@ $ gpg -r D3034E4791F8142079F0A5DEB3B7ACA36C02064C -e found.me
 gpg -r /path/to/key/file -e <any_file>
 ```
 
-    - e is used to specify the file to be encrypted
-    - r is used to specify the recipient or the key
+
+- `e` is used to specify the file to be encrypted
+- `r` is used to specify the recipient or the key
+
+- after encrypting the text file 
+
+![found me .gpg](../../images/found.me.gpg.png)
 
 
+## **Decrypting an encrypted file**
+Decrypting an encrypted file is really easy if you have the private key with you.
+A good thing about Gnupg  is that you can share the `private key` which is not safe but even if someone has access to your private they still require the passphrase/password 
 
+### **Steps**
+
+- If you have the private key
+```
+$ gpg -d /path/to/encryptedfile.gpg
+```
+
+- If you dont have the private key
+you have to import the keys inorder to decrypt the file
