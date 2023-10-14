@@ -55,7 +55,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 
 <p align="justify"> followings are required to function effectively on this project and essential in bocoming an ethical hacker . You can skip this if you already know this or You can all this later</p>
 
-- [Linux]()
+- [Linux](./Documentations/Prerequisites/README.md#linux)
 - [Git]() (optional)
 
 Learn more about it [here](./Documentations/dictionary)
