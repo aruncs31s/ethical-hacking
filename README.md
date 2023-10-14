@@ -58,7 +58,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 - [Linux]()
 - [Git]() (optional)
 
-Learn more about it [here](/Documentations/prerequisites.md)
+Learn more about it [here](./Documentations/dictionary)
 ### **Linux**
 Linux is a must have skill for any hacker or it professionals because you'll encounter it everywhere and you'll be doing all the hacks from a linux operating system like `kali` , `parrot` or `exodia`
 
