@@ -10,13 +10,12 @@
 
 - [**Basics**](#basics)
   - [Proxy Servers and Stay Anonymous](./Basics/README.md#proxy-servers-and-stay-anonymous)
-  - [WordLis](./Basics/README.md#wordlist)
+  - [WordList](./Basics/README.md#wordlist)
 - [**languages**](#languages)
   - [Bash](./languages/README.md#introduction-to-bash)
-  - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python)
-  - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c)
-  - [Perl](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#perl)
-  - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html)
+  <!-- - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python) -->
+  <!-- - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c) -->
+  <!-- - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html) -->
 
 
 
@@ -38,9 +37,8 @@
 
 
 <h2 align="center" id="introduction">Introduction</h2>
-<p align="justify">A hacker is a person with a strong intrest in computer who enjoys learning and experimenting with them . And `hacking` is the process gaining of unauthorized access to data in a system or computer*
-<i>This is a free and open source project made by few students and anyone intrested sharing 
-hacking or linux skill or anyone willing to learn hacking are wellcome here 
+<p align="justify"><i>This is a free and open source project made by few students and anyone intrested sharing 
+hacking or linux skill or anyone willing to learn hacking are welcome here 
 </i></p>
 
 <h2 align="center">Disclimer</h2>
@@ -60,6 +58,7 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 - [Linux]()
 - [Git]() (optional)
 
+Learn more about it [here](/Documentations/prerequisites.md)
 ### **Linux**
 Linux is a must have skill for any hacker or it professionals because you'll encounter it everywhere and you'll be doing all the hacks from a linux operating system like `kali` , `parrot` or `exodia`
 
