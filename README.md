@@ -6,32 +6,46 @@
 - [**Introduction**](#introduction)
 
 - [**Prerequisites**](#prerequisites)
+  - [**Git**](./Documentations/Prerequisites/README.md#Git)
+  - [**Github**](./Documentations/Prerequisites/README.md#Github)
+  - [**Linux**](./Documentations/Prerequisites/README.md#Linux)
+
 - [**Setting Up Hacking Environment**](#setting-up-hacking-environment)
 
 - [**Basics**](#basics)
-  - [Proxy Servers and Stay Anonymous](./Basics/README.md#proxy-servers-and-stay-anonymous)
-  - [WordList](./Basics/README.md#wordlist)
+  - [**Reconnaissance**](./Documentations/Basics/Reconnaissance.md) 
+  - [**Proxy Servers and Stay Anonymous**](./Basics/README.md#proxy-servers-and-stay-anonymous)
+  - [**WordList**](./Basics/README.md#wordlist)
+
 - [**languages**](#languages)
-  - [Bash](./languages/README.md#introduction-to-bash)
+  - [**Bash**](./languages/README.md#introduction-to-bash)
   <!-- - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python) -->
   <!-- - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c) -->
   <!-- - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html) -->
 
 
 
-- [Hacks](#hacks)
-  - [Android Hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking)
-  - [privilege escalation](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation)
-  - [wifi password hacking](https://github.com/aruncs31s/ethical-hacking/tree/main/Wifi%20Hacking)
-- [Scripts](#scripts)
-  - [Payload Generator](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
-  - [Neovim theme installer](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
+- [**Hacks**](#hacks)
+  <!-- - [**Android Hacking**](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking) -->
+  <!-- - [**Privilege escalation**](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation) -->
+  - [**Wifi password hacking**](/Hacks/Wifi%20Hacking/README.md)
+
+- [**Scripts**](#scripts)
+  - [**Payload Generator**](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
+  - [**Neovim theme installer**](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
+
 - [Tools Used](#Tools-Used)
+
 - [Team Members](#team-members)
+
 - [Join us](#join-us)
+
 - [Credits]()
+
 - [References](#references)
+
 - [Images](#images)
+
 - [videos]()
 
 
@@ -55,8 +69,9 @@ for more [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Int
 
 <p align="justify"> followings are required to function effectively on this project and essential in bocoming an ethical hacker . You can skip this if you already know this or You can all this later</p>
 
-- [Linux]()
-- [Git]() (optional)
+- [**Git**](/Documentations/Prerequisites/README.md#git) 
+- [**Github**](/Documentations/Prerequisites/README.md#github) 
+- [**Linux**](/Documentations/Prerequisites/README.md#linux)
 
 Learn more about it [here](/Documentations/prerequisites.md)
 ### **Linux**
@@ -105,7 +120,7 @@ Linux is a must have skill for any hacker or it professionals because you'll enc
 - [Creating a restricted group]()
 
 
-### **introduction**
+### **Introduction**
 A hacking environment is essential for doing hacks.In good old days everyone has to setup their own hacking environment inorder to start hacking but nowdays some community/companies do this for you that is , they make an hacking os which comes with all the neccessary tools out of the box 
 *In this section We will setup a hacking os and explore some pre-maid one's like kali and parrot os* *You are free to use any other hacking os like parrot os kali but "i" preffer to use arch/black arch for hacking* 
 
@@ -129,7 +144,7 @@ It is not neccessary to add a restricted user but in some case or in my opinion 
 
 Learn more about `Adding a restricted user` [here](./Pre-Requests/Environment.md#adding-a-restricted-user)
 
-### **Creating a restricted group**
+### **Creating a Restricted group**
 Creating a restricted group also helps in isolating the user for example consider if you use `sudo` group or `wheel` group for hacking and they both can access `sudo` seamlessly like consider if you have a script that you downloaded from github or some place and you wont be able to execute it with super user permission if your using `restricted user` and we can control which program should get to run with `root` permission using `custom group`
 
 Learn more about `Creating a restricted group` [here](./Pre-Requests/Environment.md#creating-a-restricted-group)
@@ -139,10 +154,10 @@ Learn more about `Creating a restricted group` [here](./Pre-Requests/Environment
 ---
 <h2 align="center" id="Basics"> <b> Basics</b></h2>
 
-- [Reconnaissance](#reconnaissance)
+- [**Reconnaissance**](#reconnaissance)
 
 1. [**Proxy Servers and Stay Anonymous**](1.-proxy-servers-and-stay-anonymous)
-2. [Phishing](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
+2. [**Phishing**](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics#phishing)
 
 This sections's discus about all basic hacks [click here](https://github.com/aruncs31s/ethical-hacking/tree/main/Basics) to know more 
 
