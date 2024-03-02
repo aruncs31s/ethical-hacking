@@ -71,7 +71,18 @@ git config --global user.email youremail@google.com
 git config --list 
 ```
 
+- Setting up default editor
+```bash
+git config --global core.editor nano 
+```
+*You can use nano , vim, emacs,any editor you want*
 
+- Your Difault branch name
+
+```bash
+git config --global init.defaultBranch main
+```
+![Default branch|200](/images/Git/default_branch.png)
 
 
 ### **Basics**
