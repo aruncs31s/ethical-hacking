@@ -33,8 +33,6 @@ git remote add origin https://github.com/aruncs31s/chad_tmux
 git push -u origin main
 ```
 
-```
-
 
 ## Topics
 
