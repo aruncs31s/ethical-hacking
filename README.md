@@ -4,32 +4,20 @@
 # <h1 align="center">**Ethical-hacking**</h1>
 
 - [**Introduction**](#introduction)
-
 - [**Prerequisites**](#prerequisites)
   - [**Git**](./Documentations/Prerequisites/README.md#Git)
   - [**Github**](./Documentations/Prerequisites/README.md#Github)
   - [**Linux**](./Documentations/Prerequisites/README.md#Linux)
 
-- [**Setting Up Hacking Environment**](#setting-up-hacking-environment)
-
 - [**Basics**](#basics)
+  - [**Setting Up Hacking Environment**](#setting-up-hacking-environment)
   - [**Reconnaissance**](./Documentations/Basics/Reconnaissance.md) 
   - [**Proxy Servers and Stay Anonymous**](./Basics/README.md#proxy-servers-and-stay-anonymous)
   - [**WordList**](./Basics/README.md#wordlist)
-
 - [**languages**](#languages)
   - [**Bash**](./languages/README.md#introduction-to-bash)
-  <!-- - [Python](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#python) -->
-  <!-- - [C](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#c) -->
-  <!-- - [HTML](https://github.com/aruncs31s/ethical-hacking/tree/main/languages/#html) -->
-
-
-
 - [**Hacks**](#hacks)
-  <!-- - [**Android Hacking**](https://github.com/aruncs31s/ethical-hacking/tree/main/android-hacking) -->
-  <!-- - [**Privilege escalation**](https://github.com/aruncs31s/ethical-hacking/tree/main/privilege%20escalation) -->
   - [**Wifi password hacking**](/Hacks/Wifi%20Hacking/README.md)
-
 - [**Scripts**](#scripts)
   - [**Payload Generator**](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/payload-generator-script1.sh)
   - [**Neovim theme installer**](https://github.com/aruncs31s/neovim-vscode-theme/blob/main/install.sh)
@@ -40,10 +28,6 @@
 
 - [Join us](#join-us)
 
-- [Credits]()
-
-- [References](#references)
-
 - [Images](#images)
 
 - [videos]()
@@ -52,7 +36,7 @@
 
 <h2 align="center" id="introduction">Introduction</h2>
 <p align="justify"><i>This is a free and open source project made by few students and anyone intrested sharing 
-hacking or linux skill or anyone willing to learn hacking are welcome here 
+  hacking or linux skill or anyone willing to learn hacking are welcome here 
 </i></p>
 
 <h2 align="center">Disclimer</h2>
@@ -204,7 +188,7 @@ Learn more about cryptography [here](./Basics/Crypto/Cryptography.md)
 - [CVE-2022-0847-exploit](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c)
 - [CVE-2022-0847-exploit 2](https://github.com/aruncs31s/ethical-hacking/blob/main/Scripts/CVE-2022-0847-exploit.c2)
 
- <h2 align="center" id="tools-used"> <b> Tools Used</b></h2>
+<h2 align="center" id="tools-used"> <b> Tools Used</b></h2>
 [`Metasploit`](./Tools-used#metasploit)  `gcc`  `Nikto` `nmap` 
 
 ## Contact
@@ -242,9 +226,3 @@ Learn more about cryptography [here](./Basics/Crypto/Cryptography.md)
 *you can join us and simply start learning together 
 for more details contact [here](https://t.me/+mqL4fZrUtEw0MjJl)*
 
- References
- 
-- ANTI-HACKER TOOL KIT Fourth Edition by Mike Shema
-- YOUR UNIX THE ULTIMATE GUIDE by Sumitabha Das
-- CYBER SECURITY Understanding Cyber Crimes,Computer Forensics and Legal Perspectives by Nina Godbole , Sunit Belapure
-- HACKING by harsh Bothra
