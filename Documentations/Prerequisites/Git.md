@@ -3,8 +3,8 @@
 ## prerequisites
 - [Linux](./Linux.md)
 
-## Kickstart
-- [adding a local repo to git]()
+## Kick start
+- [adding a local repo to git](#adding-a-local-repo-to-git)
 ## Topics
 
 - [Introduction](#introduction)
@@ -18,11 +18,10 @@
 
 - [References]()
 
-## Kickstart 
+## Kick start 
 
 #### Adding a local repo to git
 
-```bash
 ```bash
 echo "# Chad tmux" >> README.md
 git init
@@ -50,6 +49,7 @@ git push -u origin main
 - Git is a VCS(version control system)
 <details><summary>VCS</summary>
 </details>
+
 - Git stores data as snapshots and if file is not changed
 
 
