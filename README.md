@@ -3,6 +3,11 @@
 
 # <h1 align="center">**Ethical-hacking**</h1>
 
+>[!Note]
+>The development is switched to [Obsidian](https://obsidian.md/)
+
+
+
 - [**Introduction**](#introduction)
 - [**Prerequisites**](#prerequisites)
   - [**Git**](./Documentations/Prerequisites/README.md#Git)
@@ -200,27 +205,6 @@ Learn more about cryptography [here](./Basics/Crypto/Cryptography.md)
 **Arun CS** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/aruncs31s/)  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/telegram-logo-944.png?raw=true" width="16">](https://t.me/killadinjan)
 
 **Amarnath**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/amarnath749)
-
-**Goutham Naik**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Gouthamexe)
-
-**Anurag M K**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
-
-**Sony Thomas**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/sonyt86)
-
-**MaxStee**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Maxsteee)
-
-
-**Anoop J J**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
-
-**Athul vv** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/athulvv1)
-
-**Swetha Kc**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
-
-**Aslam**  [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>]()
-
-**gouthamdaas** [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/Gouthamdaas)
-
-[**Anuranch C**](https://github.com/anuranch) [<img src="https://github.com/aruncs31s/ethical-hacking/blob/main/images/github-mark-white.png?raw=true" width="16"/>](https://github.com/anuranch)
 
 ### Join us
 *you can join us and simply start learning together 
