@@ -2,26 +2,125 @@
 dg-publish: true
 ---
 # Intermediate
-In this section you will learn about 
+
+In this section you will learn about this is not in some particular order 
+
 1. Functions
 2. Scope 
 3. Precedence
 4. OOP
 5. Classes 
 6. Objects 
+7. 
+**rule** 🔨 -> {**def(what)**,**why**,**when**,**example**}
+
+| x               | explenation of x |
+| --------------- | ---------------- |
+| **Def**         | Defenition       |
+| #example        | example          |
+| syntactic sugar | make it readable |
+
+
 
  >[!important]
  >You should know [[Basics|this]] before doing this. 
 
 
-
 ## 1. Functions 
-###  Declerations or function prototyping 
+**Def:** According to [this](https://www.geeksforgeeks.org/c-functions/) article  -> A function in C is a set of statements that, when called, perform some specific tasks 
+
 ```cpp
-type functionName(argument list);
+return_type function_name(arguments){
+	// block of code..
+	return <value>;
+}
+```
+
+- the `return_type` can be -> `int,float etc` or custom data type made using **structs** 
+
+
+**why:** As  far as i know you can write an entire application which does not have functions(i meant user defined functions) except `main()` , this is ok for simple programs that we do first while learning , but as we get hands on the real world problems , functions are must , otherwise you will end up with a file that is few mega bites in size. Using only a single function is not impossible but the main use of functions is to **reduce code** and **reuse code**.   
+
+
+```mermaid
+graph LR
+function_1 & function_2 & function_3 --> Single_Program
+```
+
+**when:** For example lets consider a psudo[^1] finding roots of a quadratic equation.
+we know the equation 
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2 a }
+$$
+
+This code is written without functions , for the time being ignore the `main()` function 
+```cpp
+float a , b , c ; // for storing coeefficients
+a = 1 ; b = 2 ; c = -3 ;
+float x1 , x2  ; // storing the result
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+```
+
+This is written with functions 
+
+```cpp 
+void get_roots(float a , float b , float c , float &x1,float &x2){
+	x1 = -b + sqrt(b*b - 4*a*c) / 2 * a;
+	x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+}
+float x1, x2 ; 
+get_roots(1,2,-3,x1,x2);
+```
+You can see that that the program is gotten bigger. But if we try to compute roots of 5 quadratic equations the first program will become 
+
+
+```cpp
+float a , b , c ; // for storing coeefficients
+a = 1 ; b = 2 ; c = -3 ;
+float x1 , x2  ; // storing the result
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+a = 1 ; b = 3 , c = 4 
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+a = 1 ; b = 3 , c = 4 
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+a = 1 ; b = 3 , c = 4 
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+a = 1 ; b = 3 , c = 4 
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a ;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+```
+Now the program with function will become 
+
+```cpp
+void get_roots(float a , float b , float c , float &x1,float &x2){
+x1 = -b + sqrt(b*b - 4*a*c) / 2 * a;
+x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;
+}
+float x1, x2 ; 
+get_roots(1,2,-3,x1,x2);
+get_roots(1,2,-3,x1,x2);
+get_roots(1,2,-3,x1,x2);
+get_roots(1,2,-3,x1,x2);
+get_roots(1,2,-3,x1,x2);
+```
+One can say that in the non function program , i'm just assigning arbitrary values to `a,b` and `c` then calculating using `x2 = -b - sqrt(b*b - 4*a*c) / 2 * a;`
+
+
+
+[^1]: #todo Find the exact word 
+###  Declaration or function prototyping 
+```cpp
+type functionName(argument_lists);
 ```
 type is essentially means the **return type** of the function. 
+
 #examples 
+
 ```cpp
 int sum(int a , int b);
 int sum(int,int);
@@ -85,6 +184,8 @@ int main(){
 a + b = 15.5
 ```
 
+
+
 **Can we achieve this using only int?** YES
 
 ```cpp
@@ -115,9 +216,51 @@ we can see that there are already extra complexity , and if the number is `0.01`
 >[!Summary] choosing datatypes
 >Data type is must be chose carefully , most of the round off errors will happen due to incorrect datatypes and data types can also influence the performance of the program 
 
+### Custom Data types in Functions 
 
-### Scope of a variable
-*Scope of a variable the region of code within which a variable is accessible*[^1]. 
+```cpp
+#include <iostream>
+using namespace std;
+struct Point {
+    int x;
+    int y;
+};
+struct Point create_point(int x, int y) {
+    struct Point p;
+    p.x = x;
+    p.y = y;
+    return p;
+}
+int main() {
+    struct Point p = create_point(3, 4);
+    cout  << p.x << ", " << p.y << endl;
+}
+```
+
+#syntactic_sugar
+
+```cpp
+#include <iostream>
+using namespace std;
+typedef struct Point {
+    int x;
+    int y;
+} Point;
+Point create_point(int x, int y) {
+    Point p;
+    p.x = x;
+    p.y = y;
+    return p;
+}
+int main() {
+    Point p = create_point(3, 4);
+    cout  << p.x << ", " << p.y << endl;
+}
+```
+
+
+## 2. Scope 
+**Def:** *Scope of a variable the region of code within which a variable is accessible*[^1]. 
 - the scope of a variable is constrained inside `{}`  
 [^1]: https://docs.julialang.org/en/v1/manual/variables-and-scoping
 ```cpp
@@ -143,7 +286,8 @@ from function a = 10
 local a = 5
 global a = 10
 ```
-## Precedence
+
+**Why:** the scope thing allows us to use/reuse names for local access , for example almost every programmer uses **i** then **j** for loops or as the **iterator** , scope is the best way to avoid pollution , if there no scopes we have to find new names for each variable that is going to be declared . 
 
 
 ## Control Statements 
@@ -197,10 +341,13 @@ if (a == 10 ){
 	}
 }
 ```
-```output
+
+```op
 HI
 ```
-```cpp
+
+
+
 ```cpp
 #include <iostream>
 int main(){
@@ -211,30 +358,31 @@ if (a == 9 ){
 }
 ```
 ```output
-
+// Nothing will be here 
 ```
 
 >[!note] true and flase 
 >a value other than 1 is consderd as true , so the following programs all will output the same result 
 >
->```cpp
+```cpp
 > #include <iostream>
-> int main(){
-> int a = 10 ;
-> if (a - 5 ){ // true
-> 	std::cout << "HI" << std::endl;
-> 	}
-> }
-> ```
-> ```cpp
-> #include <iostream>
-> int main(){
-> int a = 10 ;
-> if (a - 100){ // true 
->  	std::cout << "HI" << std::endl;
-> 	}
-> }
-> ```
+int main(){
+int a = 10 ;
+if (a - 5 ){ // true
+ 	std::cout << "HI" << std::endl;
+ 	}
+ }
+```
+
+ ```cpp
+ #include <iostream>
+ int main(){
+ int a = 10 ;
+ if (a - 100){ // true 
+  	std::cout << "HI" << std::endl;
+ 	}
+ }
+ ```
 
 
 ### While
@@ -243,3 +391,57 @@ if (a == 9 ){
 while(expression)
 	statement
 ```
+
+- [ ] Complete loops 
+
+
+
+## C++ Structs
+You all will be familiar with C structs if dont check this [[Basics|Structs]]. 
+Look at one #example
+```cpp
+#include <iostream>
+using namespace std;
+struct Point{
+    int x;
+    int y;
+    Point(int _x, int _y) : x(_x), y(_y) {}
+    void display() {
+        cout << "Point(" << x << ", " << y << ")" << endl;
+    }
+};
+int main(){
+    Point p1(10, 20);
+    p1.display();
+}
+```
+First thing you can notice is that , in struct definition there are member functions , Constructor etc.
+
+**Constructor**
+```cpp
+Point(int _x, int _y) : x(_x), y(_y) {}
+```
+This will assign value `_x` to `x` and value `_y` to `y`  . You can extend this to make things like the following.
+
+```cpp
+Point(int _x, int _y) {
+        x = _x * 100;
+        y = _y * 100;
+    }
+```
+This is exactly like the C++ Class constructor.
+
+
+**Member Functions**
+
+```cpp
+void display() {
+        cout << "Point(" << x << ", " << y << ")" << endl;
+    }
+```
+
+you can call them by `struct_name.function_name()` just like accessing the value inside a struct 
+
+
+
+## C++ Class 

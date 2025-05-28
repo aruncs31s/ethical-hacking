@@ -6,10 +6,12 @@ dg-publish: true
 - First program
 - Printing 
 - Variables 
+- Data types 
 - Operations 
+- Custom Datatypes 
 
+##  Introduction 
 Basics of all programming languages are almost the same , so if you have already know another programming language just skip this part.
-
 
 There are few things to consider when first starting to code 
 1. Compatible OS[^1] ,
@@ -39,6 +41,35 @@ int main() {
 Hello World!
 ```
 
+- `using namespace std` means that we can use names for objects and variables from the standard library.
+  - if not `std::cout`
+For example 
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+  cout << "Some String\n"; // Prints "Some String"
+}
+```
+
+if `using namespace std` is not included the above program will become
+
+```cpp
+#include <iostream>
+int main(){
+std::cout << "Some String\n"; // Prints "Some String"
+}
+```
+
+
+### Executing your first program
+
+```bash
+g++ program_name.cpp -o bin_file_name
+./bin_file_name
+```
+
 ![[Screenshot 2025-05-13 at 6.54.34 AM.png]]
 ![[Screenshot 2025-05-13 at 6.54.27 AM.png]]
 ![[Screenshot 2025-05-13 at 6.54.46 AM.png]]
@@ -51,7 +82,7 @@ Hello World!
 using namespace std;  
   
 int main() {  
-  cout << "Hello World!";  
+  cout << "Hello World!" << endl;  
   return 0;  
 }
 ```
@@ -125,7 +156,177 @@ number = 20;
 
 
 ![[Screenshot 2025-05-13 at 12.30.20 PM.png]]
+## Datatypes 
 
+1. Builtin Data types(Primitive Datatypes)
+2. Derived Datatypes 
+3. User Defined Datatypes 
+
+### Primitive Data Types 
+```cpp
+// Integer types 
+int x = 500; // 4 bytes 
+short x = 100; // 2 bytes 
+long x = 1000000L ; // 4 bytes or 8 bytes 
+long long x = 10000000000LL; // 8 bytes 
+unsigned int x = 10;
+// Floating Point 
+float x = 1.2 ; // 4 bytes 
+double x = 1.2312; // 8 bytes 
+long double = 1.23131233434343; // 16 bytes 
+
+// Charaters 
+char x = "X" ;
+wchar_t x = L"😅";
+
+// Boolean  (0 -> false , 1 -> true)
+bool isComplete = true ;
+bool isComplete = 1 ;
+
+```
+
+--- 
+##### Size of Datatypes 
+```cpp
+#include <iostream>
+using namespace std;
+void print_size(int x){
+    cout << x <<  " bytes ; " << x*8 << "bits" << endl;
+}
+int main(){
+    cout << "Integers" << endl ;
+    cout << "----------" << endl; 
+    print_size(sizeof(int)) ; 
+    print_size(sizeof(short)) ; 
+    print_size(sizeof(long)); 
+    print_size(sizeof(long long)) ;
+    cout << "----------" << endl; 
+    cout << "floating point" << endl ;
+    cout << "----------" << endl; 
+    print_size(sizeof(float)) ; 
+    print_size(sizeof(double)) ; 
+    print_size(sizeof(long double)) ; 
+    cout << "----------" << endl; 
+    cout << "Character" << endl; 
+    cout << "----------" << endl; 
+    print_size(sizeof(char)) ;
+    print_size(sizeof(wchar_t)) ; 
+}
+```
+```op
+Integers
+----------
+4 bytes ; 32bits
+2 bytes ; 16bits
+8 bytes ; 64bits
+8 bytes ; 64bits
+----------
+floating point
+----------
+4 bytes ; 32bits
+8 bytes ; 64bits
+16 bytes ; 128bits
+----------
+Character
+----------
+1 bytes ; 8bits
+4 bytes ; 32bits
+```
+
+- size of `bool` is 1 bit 
+
+
+### Derived Datatypes
+1. Arrays
+2. Pointers 
+3. References
+
+
+#### Arrays
+
+```cpp
+ int a[] = {1, 2, 3};               
+int b[3] = {1, 2, 3};
+char c[] = "abc";
+char d[] = {'a', 'b', 'c'}; 
+char e[3] = {'a', 'b', 'c'};
+```
+
+#example 
+
+ ```cpp
+
+#include <iostream>
+#include <array>
+using namespace std;
+
+template <typename T, size_t N>
+void print_arr(const T (&arr)[N]) {
+    for(size_t i = 0; i < N; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int a[] = {1, 2, 3};               
+    int b[3] = {1, 2, 3};
+    char c[] = "abc";
+    char d[] = {'a', 'b', 'c'}; 
+    char e[3] = {'a', 'b', 'c'};
+    print_arr(a);   
+    print_arr(b);
+    print_arr(c);
+    print_arr(d);
+    print_arr(e);
+    return 0;
+}
+ 
+```
+
+```op
+1 2 3 
+1 2 3 
+a b c  
+a b c 
+a b c
+```
+
+### Pointers
+A more notes of pointer can be found [here](https://aruncs31s-notes-vercel.vercel.app/03-coding/01-c/pointers/)
+
+```cpp
+type* pointer_name;
+```
+
+#examples 
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 5;
+    int* ptr = &x; 
+    cout << "Value of x: " << x << endl;
+    cout << "Address of x: " << &x << endl;
+    cout << "Value of ptr: " << ptr << endl;
+    cout << "Value pointed to by ptr: " << *ptr << endl;
+    return 0;
+}
+```
+
+```op
+Value of x: 5
+Address of x: 0x7ff7bf3ea2f8
+Value of ptr: 0x7ff7bf3ea2f8
+Value pointed to by ptr: 5
+```
+
+
+- `&x` means address of x 
+
+- here the **pointer** `ptr` is pointing to the address of `x` 
+- ` ptr = &x` we can read this as ptr is equal to the address of x
 ## Operations
 
 lets `a=10` , `b=5`
@@ -174,7 +375,7 @@ int a = 10 ; // Assigns the value 10 to variable a
 ```
 
 
-### Binary Operations
+### Bitwise Operations
 
 ```c
 int a = 10 ; // 1010 
@@ -212,7 +413,7 @@ c = a >> 2 ; // c = 1010 >> 2 = 0b0010 -> 2
 | **<<**   | left shift   |
 | **>>**   | right shift  |
 
-### Comparison operator 
+### Relational operator 
 
 
 
@@ -281,3 +482,11 @@ a > b || a < c ; // false | true -> true
 
 
 ![[Screenshot 2025-05-13 at 4.58.46 PM.png]]
+
+
+---
+
+>[!Note]
+>You have reached the end of the `c++/basics` now go to [[Intermediate|C++/Intermediate]] 
+
+
