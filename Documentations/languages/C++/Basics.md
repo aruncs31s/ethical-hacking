@@ -3,6 +3,7 @@ dg-publish: true
 ---
 # Basics 1
 **Before**:  [[Intermediate]]
+Each Code snippet provided here will independently ie you can just copy paste the code and it will just run. 
 - First program
 - Printing 
 - Variables 
@@ -37,12 +38,47 @@ int main() {
   return 0;  
 }
 ```
+**How to execute it?**
+- Open any editor 
+- type/copy what is in the snippet[^2] and paste it in the editor 
+- Save it in a file or create a new file for it and give **.cpp** extension 
+- use [GCC](https://gcc.gnu.org/) or any other compiler to compile it. 
+
+>```bash
+> g++ <your_program_name> -o <output_file_name>
+>```
+- Run the program using the command
+
+>```bash
+>./<output_file_name>
+>``` 
+
+- You can use a ide to automate this process if you dont want to deal with the terminal 
+
+> [!Note] 
+> **For Windows CMD**
+> for windows user `./<output_file_name>` will not work , instead use `.\<output_file_name>` to run the program.
+
+[^2]: Block of code 
+- After executing you will get the following output 
+
 ```
 Hello World!
 ```
 
+
+### Explenation 
+```cpp
+#include <iostream>  
+```
+- `#include <iostream>` is a preprocessor directive that tells the compiler to include the standard input-output stream library, which is necessary for using `cout` and `cin`. (it is same as #include <stdio.h> in C)
+
+```cpp
+using namespace std;  
+```
+
 - `using namespace std` means that we can use names for objects and variables from the standard library.
-  - if not `std::cout`
+  - if not `std::cout` 
 For example 
 
 ```cpp
@@ -61,6 +97,8 @@ int main(){
 std::cout << "Some String\n"; // Prints "Some String"
 }
 ```
+
+
 
 
 ### Executing your first program
@@ -106,12 +144,20 @@ World!
 ```
 
 ![[Screenshot 2025-05-13 at 12.25.29 PM.png]]
+### Comments
 
-## Variable
-#syntax
+```cpp
+// This is a comment in c++
 ```
-type variableName = value;
+```cpp
+/* 
+This is a multi-line comment in c++
+*/
 ```
+
+## Variables
+a variable is a **named storage** location in the computer's memory that holds a value.
+#example 
 
 ```cpp
 int a = 10;
@@ -124,7 +170,15 @@ bool something = false;
 
 
 ![[Screenshot 2025-05-13 at 12.28.23 PM.png]]
+a variable in the sense that their value can be changed during the execution of the program. 
 
+#snippet 
+```cpp
+int x = 10;
+x = 20; // x is now 20
+x = 30; // x is now 30
+
+```
 
 >[!Note] `string`
 >When using `std::string`  the **string** lib should be included. 
@@ -146,6 +200,7 @@ a = 10 ;
 ```
 
 ### Constants 
+*also called **literals*** eg: string literals 
 ```cpp 
 const int number = 10 ;
 // Error 
@@ -490,3 +545,77 @@ a > b || a < c ; // false | true -> true
 >You have reached the end of the `c++/basics` now go to [[Intermediate|C++/Intermediate]] 
 
 
+
+
+## Storage Classes
+1. Automatic Storage Class (`auto`)
+2. Static Storage Class (`static`)
+3. Register Storage Class (`register`)
+4. External Storage Class (`extern`)
+5. Thread Storage Class (`thread_local`)
+### Automatic Storage Class (`auto`)
+
+```cpp
+#include <iostream>
+int main() {
+    auto a = 10;
+    std::cout << a;
+}
+```
+this is same as 
+```cpp
+#include <iostream>
+int main() {
+    int a = 10;
+    std::cout << a;
+}
+```
+
+
+### Static Storage Class (`static`)
+```cpp
+#include <iostream>
+int main() {
+		static int a = 10;
+		std::cout << a;
+}
+```
+- value of a `static` variable will remaind during the entire program excecution, even if it goes out of scope.
+
+or *The static storage class instructs the compiler to keep a local variable in existence during the life-time of the program* [Source](https://cds.iisc.ac.in/wp-content/uploads/DS286.AUG2016.Lab2_.cpp_tutorial.pdf)
+
+**why**:
+consider this program 
+```cpp
+#include <iostream> 
+void call_me(){
+    static int count = 0 ;
+    count++;
+    std::cout << count << std::endl; 
+}
+int main(){
+    call_me();
+    call_me();
+    call_me();
+}
+```
+Why do you think the output will be ? some thing like this 
+```
+1
+1
+1
+```
+
+
+### Register Storage Class (`register`)
+![[Pasted image 20250528231121.png]]
+as the release of c++17 this is deprecated , but it is still used in c programming language.
+
+```cpp
+#include <iostream>
+
+int main() {
+    register int a = 10;
+    std::cout << a;
+}
+```
