@@ -605,7 +605,36 @@ Why do you think the output will be ? some thing like this
 1
 1
 ```
+if you execute this program 
+```cpp
+#include <iostream> 
+void call_me(){
+    static int count = 0 ;
+    count++;
+    std::cout << count << std::endl; 
+}
+int main(){
+    call_me();
+    call_me();
+    call_me();
+}
+```
+its output will be 
+```
+1
+1
+1
+```
+but for the first program the output will be 
+```
+1
+2
+3
+```
 
+
+![[Screenshot 2025-05-28 at 11.54.42 PM.png]]
+**static** storage classes are often used to find total number of objects of some class , you will learn about c++ class in [[Intermediate|this]] **intermediate** section. 
 
 ### Register Storage Class (`register`)
 ![[Pasted image 20250528231121.png]]
