@@ -442,6 +442,3 @@ void display() {
 
 you can call them by `struct_name.function_name()` just like accessing the value inside a struct 
 
-
-
-## C++ Class 
